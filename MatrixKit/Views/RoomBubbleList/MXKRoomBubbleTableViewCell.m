@@ -628,7 +628,7 @@ static BOOL _disableLongPressGestureOnEvent;
                                 dateTimeLabel.textAlignment = NSTextAlignmentLeft;
                             }
                             dateTimeLabel.textColor = [UIColor lightGrayColor];
-                            dateTimeLabel.font = [UIFont systemFontOfSize:11];
+                            dateTimeLabel.font = [UIFont systemFontOfSize:14];
                             dateTimeLabel.adjustsFontSizeToFitWidth = YES;
                             dateTimeLabel.minimumScaleFactor = 0.6;
                             

@@ -92,7 +92,7 @@ static NSString *const kHTMLATagRegexPattern = @"<a href=\"(.*?)\">([^<]*)</a>";
         _errorTextColor = [UIColor redColor];
         _htmlBlockquoteBorderColor = [MXKTools colorWithRGBValue:0xDDDDDD];
         
-        _defaultTextFont = [UIFont systemFontOfSize:14];
+        _defaultTextFont = [UIFont systemFontOfSize:18];
         _prefixTextFont = [UIFont systemFontOfSize:14];
         _bingTextFont = [UIFont systemFontOfSize:14];
         _stateEventTextFont = [UIFont italicSystemFontOfSize:14];

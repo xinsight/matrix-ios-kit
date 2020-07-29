@@ -794,6 +794,7 @@ NSString *const kMXKRoomDataSourceTimelineErrorErrorKey = @"kMXKRoomDataSourceTi
                 if (self.room.outgoingMessages.count && [event.sender isEqualToString:self.mxSession.myUser.userId])
                 {
                     localEcho = [self.room pendingLocalEchoRelatedToEvent:event];
+                    NSLog(@"🔥 pendingLocalEcho: %@ related to: %@", localEcho, event);
                     if (localEcho)
                     {
                         // Check whether the local echo has a timestamp (in this case, it is replaced with the actual event).
@@ -1358,7 +1359,8 @@ NSString *const kMXKRoomDataSourceTimelineErrorErrorKey = @"kMXKRoomDataSourceTi
 #pragma mark - Sending
 - (void)sendTextMessage:(NSString *)text success:(void (^)(NSString *))success failure:(void (^)(NSError *))failure
 {
-    __block MXEvent *localEchoEvent = nil;
+    //__block
+    MXEvent *localEchoEvent = nil;
     
     BOOL isEmote = [self isMessageAnEmote:text];
     NSString *sanitizedText = [self sanitizedMessageText:text];
@@ -1370,10 +1372,11 @@ NSString *const kMXKRoomDataSourceTimelineErrorErrorKey = @"kMXKRoomDataSourceTi
         [_room sendEmote:sanitizedText formattedText:html localEcho:&localEchoEvent success:success failure:failure];
     }    
     else
-    {
+f    {
         [_room sendTextMessage:sanitizedText formattedText:html localEcho:&localEchoEvent success:success failure:failure];
     }
-    
+
+    NSLog("🔥 localEchoEvent: %@", localEchoEvent); // FIXME
     if (localEchoEvent)
     {
         // Make the data source digest this fake local echo message
@@ -1389,7 +1392,8 @@ NSString *const kMXKRoomDataSourceTimelineErrorErrorKey = @"kMXKRoomDataSourceTi
 {
     MXEvent *eventToReply = [self eventWithEventId:eventIdToReply];
     
-    __block MXEvent *localEchoEvent = nil;
+    //__block
+    MXEvent *localEchoEvent = nil;
     
     NSString *sanitizedText = [self sanitizedMessageText:text];
     NSString *html = [self htmlMessageFromSanitizedText:sanitizedText];
@@ -1567,7 +1571,8 @@ NSString *const kMXKRoomDataSourceTimelineErrorErrorKey = @"kMXKRoomDataSourceTi
 
 - (void)sendEventOfType:(MXEventTypeString)eventTypeString content:(NSDictionary<NSString*, id>*)msgContent success:(void (^)(NSString *eventId))success failure:(void (^)(NSError *error))failure
 {
-    __block MXEvent *localEchoEvent = nil;
+    //__block
+    MXEvent *localEchoEvent = nil;
 
     // Make the request to the homeserver
     [_room sendEventOfType:eventTypeString content:msgContent localEcho:&localEchoEvent success:success failure:failure];
