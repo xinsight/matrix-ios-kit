@@ -1376,7 +1376,7 @@ NSString *const kMXKRoomDataSourceTimelineErrorErrorKey = @"kMXKRoomDataSourceTi
         [_room sendTextMessage:sanitizedText formattedText:html localEcho:&localEchoEvent success:success failure:failure];
     }
 
-    NSLog("🔥 localEchoEvent: %@", localEchoEvent); // FIXME
+    NSLog(@"🔥 localEchoEvent: %@", localEchoEvent); // FIXME
     if (localEchoEvent)
     {
         // Make the data source digest this fake local echo message
