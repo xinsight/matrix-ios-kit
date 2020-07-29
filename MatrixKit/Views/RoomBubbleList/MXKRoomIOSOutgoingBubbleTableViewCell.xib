@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -15,25 +13,25 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pad-g3-2YJ" id="fCg-ju-gnG">
-                <rect key="frame" x="0.0" y="0.0" width="600" height="39"/>
+                <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ktd-ms-tAu" userLabel="Bubble Image View">
-                        <rect key="frame" x="160" y="2" width="422" height="35"/>
+                        <rect key="frame" x="153" y="2" width="422" height="36"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="422" id="ptG-QV-Cix"/>
                         </constraints>
                     </imageView>
                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="text message" translatesAutoresizingMaskIntoConstraints="NO" id="tgO-Rv-C7R">
-                        <rect key="frame" x="74" y="3" width="495" height="36"/>
+                        <rect key="frame" x="74" y="3" width="495" height="37"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                         <dataDetectorType key="dataDetectorTypes" link="YES"/>
                     </textView>
                     <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="SIW-l4-PfI" userLabel="Attachment View" customClass="MXKImageView">
-                        <rect key="frame" x="160" y="2" width="422" height="35"/>
+                        <rect key="frame" x="153" y="2" width="422" height="36"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="192" id="iGr-e7-bde"/>
@@ -45,17 +43,17 @@
                         </variation>
                     </view>
                     <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZC1-hT-7fs">
-                        <rect key="frame" x="355" y="4" width="32" height="32"/>
+                        <rect key="frame" x="348" y="4" width="32" height="32"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="32" id="MOQ-Xi-18w"/>
                             <constraint firstAttribute="height" constant="32" id="pGM-pf-SiP"/>
                         </constraints>
                     </imageView>
                     <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Mqf-7a-bsm">
-                        <rect key="frame" x="361" y="10" width="20" height="20"/>
+                        <rect key="frame" x="354" y="10" width="20" height="20"/>
                     </activityIndicatorView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVJ-Av-zVs" userLabel="showHideDateTime">
-                        <rect key="frame" x="0.0" y="0.0" width="74" height="39"/>
+                        <rect key="frame" x="0.0" y="0.0" width="74" height="40"/>
                         <state key="normal">
                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </state>
@@ -64,20 +62,20 @@
                         </connections>
                     </button>
                     <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a51-cR-7FE" userLabel="bubbleInfoContainer">
-                        <rect key="frame" x="8" y="10" width="66" height="29"/>
+                        <rect key="frame" x="8" y="10" width="66" height="30"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="apW-hM-veR" userLabel="ProgressView">
-                        <rect key="frame" x="18" y="-16" width="100" height="71"/>
+                        <rect key="frame" x="18" y="-15" width="100" height="70"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="4" preferredMaxLayoutWidth="100" translatesAutoresizingMaskIntoConstraints="NO" id="DYj-Mb-me4" userLabel="Progress stats">
-                                <rect key="frame" x="0.0" y="61" width="100" height="10"/>
+                                <rect key="frame" x="0.0" y="60" width="100" height="10"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oec-kb-Tsz" customClass="MXKPieChartView">
-                                <rect key="frame" x="30" y="0.0" width="40" height="41"/>
+                                <rect key="frame" x="30" y="0.0" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="6tZ-ag-7TT"/>
                                     <constraint firstAttribute="width" constant="40" id="duC-38-cLC"/>
@@ -156,6 +154,7 @@
                 <outlet property="progressView" destination="apW-hM-veR" id="Iy8-ca-hMi"/>
                 <outlet property="statsLabel" destination="DYj-Mb-me4" id="CbG-5V-unO"/>
             </connections>
+            <point key="canvasLocation" x="140" y="152"/>
         </tableViewCell>
     </objects>
 </document>

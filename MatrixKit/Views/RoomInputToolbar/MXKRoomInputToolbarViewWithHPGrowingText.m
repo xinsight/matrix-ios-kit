@@ -70,7 +70,7 @@
     [super customizeViewRendering];
     
     // set text input font
-    growingTextView.font = [UIFont systemFontOfSize:14];
+    growingTextView.font = [UIFont systemFontOfSize:16];
     
     // draw a rounded border around the textView
     growingTextView.layer.cornerRadius = 5;

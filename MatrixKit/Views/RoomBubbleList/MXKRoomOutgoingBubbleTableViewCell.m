@@ -45,7 +45,7 @@
                     [unsentButton setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
                     
                     unsentButton.backgroundColor = [UIColor whiteColor];
-                    unsentButton.titleLabel.font =  [UIFont systemFontOfSize:18];
+                    unsentButton.titleLabel.font =  [UIFont systemFontOfSize:14];
                     
                     [unsentButton addTarget:self action:@selector(onResendToggle:) forControlEvents:UIControlEventTouchUpInside];
                     
