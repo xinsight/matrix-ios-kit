@@ -1372,7 +1372,7 @@ NSString *const kMXKRoomDataSourceTimelineErrorErrorKey = @"kMXKRoomDataSourceTi
         [_room sendEmote:sanitizedText formattedText:html localEcho:&localEchoEvent success:success failure:failure];
     }    
     else
-f    {
+    {
         [_room sendTextMessage:sanitizedText formattedText:html localEcho:&localEchoEvent success:success failure:failure];
     }
 
