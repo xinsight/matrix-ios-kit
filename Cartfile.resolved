@@ -1,0 +1,8 @@
+github "AFNetworking/AFNetworking" "4.0.1"
+github "Cocoanetics/DTCoreText" "1.6.23"
+github "iziz/libPhoneNumber-iOS" "1.0.0"
+github "nicklockwood/GZIP" "1.2.2"
+github "realm/realm-cocoa" "v3.18.0"
+github "xinsight/libbase58" "8a0514df567144e63849cb23fd64a443817fee30"
+github "xinsight/matrix-ios-sdk" "7501504307397e115b2674274b97926f94091bc5"
+github "xinsight/olm" "71cbc3137338acf88535bf07d28f026ea4150617"
