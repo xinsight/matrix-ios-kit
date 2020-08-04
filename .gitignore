@@ -24,6 +24,9 @@ DerivedData
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 Pods/
 
+# ignore carthage build directory
+Carthage/
+
 # Do not track our workspace since it is created by CocoaPods
 *.xcworkspace
 
