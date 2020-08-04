@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -60,6 +60,18 @@
 		71EBE6631C04608100E7D953 /* MXKRoomActivitiesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EBE6621C04608100E7D953 /* MXKRoomActivitiesView.m */; };
 		8EE45E64044E107FAB59C7D1 /* Pods_MatrixKitSamplePods_MatrixKitSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5891CE7965783A3890D40ED9 /* Pods_MatrixKitSamplePods_MatrixKitSample.framework */; };
 		92663A6C1EF6E5B3005FB712 /* MXKSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92663A6B1EF6E5B3005FB712 /* MXKSoundPlayer.m */; };
+		AEA3A80E24DA142A00F851FE /* MatrixKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA3A80C24DA142A00F851FE /* MatrixKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A81124DA142A00F851FE /* MatrixKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A80A24DA142A00F851FE /* MatrixKit.framework */; };
+		AEA3A81224DA142A00F851FE /* MatrixKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A80A24DA142A00F851FE /* MatrixKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AEA3A82024DA145B00F851FE /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81724DA145B00F851FE /* Realm.framework */; };
+		AEA3A82224DA145C00F851FE /* libbase58.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81824DA145B00F851FE /* libbase58.framework */; };
+		AEA3A82424DA145C00F851FE /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81924DA145B00F851FE /* RealmSwift.framework */; };
+		AEA3A82624DA145C00F851FE /* libPhoneNumberiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81A24DA145B00F851FE /* libPhoneNumberiOS.framework */; };
+		AEA3A82824DA145C00F851FE /* MatrixSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81B24DA145B00F851FE /* MatrixSDK.framework */; platformFilter = ios; };
+		AEA3A82A24DA145C00F851FE /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81C24DA145B00F851FE /* AFNetworking.framework */; };
+		AEA3A82C24DA145C00F851FE /* GZIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81D24DA145B00F851FE /* GZIP.framework */; };
+		AEA3A82E24DA145C00F851FE /* DTCoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81E24DA145B00F851FE /* DTCoreText.framework */; };
+		AEA3A83024DA145C00F851FE /* OLMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81F24DA145B00F851FE /* OLMKit.framework */; platformFilter = ios; };
 		B11D3C7E20C032BD00938BCB /* MXKBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */; };
 		B125D0FD22D5D2C200570CA4 /* MXKUTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */; };
 		B125D10522D62A4900570CA4 /* MXKUTITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D10322D62A4800570CA4 /* MXKUTITests.swift */; };
@@ -255,7 +267,28 @@
 			remoteGlobalIDString = 3219CB671AA6F2780027D7E2;
 			remoteInfo = MatrixKitSample;
 		};
+		AEA3A80F24DA142A00F851FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3219CB601AA6F2780027D7E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA3A80924DA142A00F851FE;
+			remoteInfo = MatrixKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEA3A81324DA142A00F851FE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AEA3A81224DA142A00F851FE /* MatrixKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0B24B45B3C37CC4E22FABCEF /* Pods-MatrixKitSamplePods-MatrixKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatrixKitSamplePods-MatrixKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MatrixKitSamplePods-MatrixKitSample/Pods-MatrixKitSamplePods-MatrixKitSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -362,6 +395,18 @@
 		8C751E43C4D87B309065E3C8 /* Pods-MatrixKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatrixKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MatrixKitTests/Pods-MatrixKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		92663A6A1EF6E5B3005FB712 /* MXKSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXKSoundPlayer.h; sourceTree = "<group>"; };
 		92663A6B1EF6E5B3005FB712 /* MXKSoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXKSoundPlayer.m; sourceTree = "<group>"; };
+		AEA3A80A24DA142A00F851FE /* MatrixKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MatrixKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA3A80C24DA142A00F851FE /* MatrixKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatrixKit.h; sourceTree = "<group>"; };
+		AEA3A80D24DA142A00F851FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA3A81724DA145B00F851FE /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		AEA3A81824DA145B00F851FE /* libbase58.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libbase58.framework; path = Carthage/Build/iOS/libbase58.framework; sourceTree = "<group>"; };
+		AEA3A81924DA145B00F851FE /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		AEA3A81A24DA145B00F851FE /* libPhoneNumberiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libPhoneNumberiOS.framework; path = Carthage/Build/iOS/libPhoneNumberiOS.framework; sourceTree = "<group>"; };
+		AEA3A81B24DA145B00F851FE /* MatrixSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MatrixSDK.framework; path = Carthage/Build/iOS/MatrixSDK.framework; sourceTree = "<group>"; };
+		AEA3A81C24DA145B00F851FE /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		AEA3A81D24DA145B00F851FE /* GZIP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GZIP.framework; path = Carthage/Build/iOS/GZIP.framework; sourceTree = "<group>"; };
+		AEA3A81E24DA145B00F851FE /* DTCoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTCoreText.framework; path = Carthage/Build/iOS/DTCoreText.framework; sourceTree = "<group>"; };
+		AEA3A81F24DA145B00F851FE /* OLMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OLMKit.framework; path = Carthage/Build/iOS/OLMKit.framework; sourceTree = "<group>"; };
 		B11D3C7C20C032BD00938BCB /* MXKBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXKBarButtonItem.h; sourceTree = "<group>"; };
 		B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXKBarButtonItem.m; sourceTree = "<group>"; };
 		B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXKUTI.swift; sourceTree = "<group>"; };
@@ -692,7 +737,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA3A81124DA142A00F851FE /* MatrixKit.framework in Frameworks */,
 				8EE45E64044E107FAB59C7D1 /* Pods_MatrixKitSamplePods_MatrixKitSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA3A80724DA142A00F851FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA3A82624DA145C00F851FE /* libPhoneNumberiOS.framework in Frameworks */,
+				AEA3A82A24DA145C00F851FE /* AFNetworking.framework in Frameworks */,
+				AEA3A82224DA145C00F851FE /* libbase58.framework in Frameworks */,
+				AEA3A82024DA145B00F851FE /* Realm.framework in Frameworks */,
+				AEA3A82424DA145C00F851FE /* RealmSwift.framework in Frameworks */,
+				AEA3A82824DA145C00F851FE /* MatrixSDK.framework in Frameworks */,
+				AEA3A82E24DA145C00F851FE /* DTCoreText.framework in Frameworks */,
+				AEA3A83024DA145C00F851FE /* OLMKit.framework in Frameworks */,
+				AEA3A82C24DA145C00F851FE /* GZIP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -742,6 +804,7 @@
 				3219CB941AA6F5ED0027D7E2 /* Samples */,
 				3219CB6A1AA6F2780027D7E2 /* MatrixKit */,
 				3203F2691D2E9CAE0021F170 /* MatrixKitTests */,
+				AEA3A80B24DA142A00F851FE /* MatrixKit */,
 				3219CB691AA6F2780027D7E2 /* Products */,
 				69833E0CA8F7B8F25C6CC7C7 /* Pods */,
 				324978E5243F431D000D0384 /* Libs */,
@@ -754,6 +817,7 @@
 			children = (
 				3219CB681AA6F2780027D7E2 /* MatrixKitSample.app */,
 				3203F2681D2E9CAE0021F170 /* MatrixKitTests.xctest */,
+				AEA3A80A24DA142A00F851FE /* MatrixKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1093,6 +1157,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AEA3A80B24DA142A00F851FE /* MatrixKit */ = {
+			isa = PBXGroup;
+			children = (
+				AEA3A80C24DA142A00F851FE /* MatrixKit.h */,
+				AEA3A80D24DA142A00F851FE /* Info.plist */,
+			);
+			path = MatrixKit;
+			sourceTree = "<group>";
+		};
 		B11D3C7B20C0329B00938BCB /* BarButtonItem */ = {
 			isa = PBXGroup;
 			children = (
@@ -1137,6 +1210,15 @@
 		CC4E6F6D4101B9B731F29FB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEA3A81C24DA145B00F851FE /* AFNetworking.framework */,
+				AEA3A81E24DA145B00F851FE /* DTCoreText.framework */,
+				AEA3A81D24DA145B00F851FE /* GZIP.framework */,
+				AEA3A81824DA145B00F851FE /* libbase58.framework */,
+				AEA3A81A24DA145B00F851FE /* libPhoneNumberiOS.framework */,
+				AEA3A81B24DA145B00F851FE /* MatrixSDK.framework */,
+				AEA3A81F24DA145B00F851FE /* OLMKit.framework */,
+				AEA3A81724DA145B00F851FE /* Realm.framework */,
+				AEA3A81924DA145B00F851FE /* RealmSwift.framework */,
 				5891CE7965783A3890D40ED9 /* Pods_MatrixKitSamplePods_MatrixKitSample.framework */,
 				B455B95A7B9ECAD75BA21E12 /* Pods_MatrixKitSamplePods_MatrixKitTests.framework */,
 			);
@@ -1526,6 +1608,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		AEA3A80524DA142A00F851FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA3A80E24DA142A00F851FE /* MatrixKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		3203F2671D2E9CAE0021F170 /* MatrixKitTests */ = {
 			isa = PBXNativeTarget;
@@ -1556,15 +1649,35 @@
 				3219CB651AA6F2780027D7E2 /* Frameworks */,
 				3219CB661AA6F2780027D7E2 /* Resources */,
 				377905BE14B160E84117ED22 /* [CP] Embed Pods Frameworks */,
+				AEA3A81324DA142A00F851FE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AEA3A81024DA142A00F851FE /* PBXTargetDependency */,
 			);
 			name = MatrixKitSample;
 			productName = MatrixKit;
 			productReference = 3219CB681AA6F2780027D7E2 /* MatrixKitSample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AEA3A80924DA142A00F851FE /* MatrixKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA3A81624DA142A00F851FE /* Build configuration list for PBXNativeTarget "MatrixKit" */;
+			buildPhases = (
+				AEA3A80524DA142A00F851FE /* Headers */,
+				AEA3A80624DA142A00F851FE /* Sources */,
+				AEA3A80724DA142A00F851FE /* Frameworks */,
+				AEA3A80824DA142A00F851FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrixKit;
+			productName = MatrixKit;
+			productReference = AEA3A80A24DA142A00F851FE /* MatrixKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -1588,6 +1701,9 @@
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
+					AEA3A80924DA142A00F851FE = {
+						CreatedOnToolsVersion = 11.0;
+					};
 				};
 			};
 			buildConfigurationList = 3219CB631AA6F2780027D7E2 /* Build configuration list for PBXProject "MatrixKit" */;
@@ -1605,6 +1721,7 @@
 			targets = (
 				3219CB671AA6F2780027D7E2 /* MatrixKitSample */,
 				3203F2671D2E9CAE0021F170 /* MatrixKitTests */,
+				AEA3A80924DA142A00F851FE /* MatrixKit */,
 			);
 		};
 /* End PBXProject section */
@@ -1695,6 +1812,13 @@
 				F095E5181B259C71009606CE /* MXKContactTableCell.xib in Resources */,
 				F043563E1B2F124F0096FA02 /* MXKContactDetailsViewController.xib in Resources */,
 				F0B14DDD1FF65C7C00F11630 /* MXKTableViewHeaderFooterWithLabel.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA3A80824DA142A00F851FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2000,6 +2124,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEA3A80624DA142A00F851FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2007,6 +2138,11 @@
 			isa = PBXTargetDependency;
 			target = 3219CB671AA6F2780027D7E2 /* MatrixKitSample */;
 			targetProxy = 3203F26D1D2E9CAE0021F170 /* PBXContainerItemProxy */;
+		};
+		AEA3A81024DA142A00F851FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA3A80924DA142A00F851FE /* MatrixKit */;
+			targetProxy = AEA3A80F24DA142A00F851FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2045,7 +2181,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = MatrixKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.matrix.MatrixKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MatrixKitTests/MatrixKitTests-Bridging-Header.h";
@@ -2070,7 +2210,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = MatrixKitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.matrix.MatrixKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MatrixKitTests/MatrixKitTests-Bridging-Header.h";
@@ -2193,7 +2337,10 @@
 				DEVELOPMENT_TEAM = 7J4U792NQT;
 				INFOPLIST_FILE = "$(SRCROOT)/Samples/MatrixKitSample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.matrix.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MatrixKit/MatrixKit-Bridging-Header.h";
@@ -2213,13 +2360,98 @@
 				DEVELOPMENT_TEAM = 7J4U792NQT;
 				INFOPLIST_FILE = "$(SRCROOT)/Samples/MatrixKitSample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.matrix.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MatrixKit/MatrixKit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AEA3A81424DA142A00F851FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7J4U792NQT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MatrixKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.uhn.MatrixKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEA3A81524DA142A00F851FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7J4U792NQT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MatrixKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.uhn.MatrixKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -2249,6 +2481,15 @@
 			buildConfigurations = (
 				3219CB8F1AA6F2790027D7E2 /* Debug */,
 				3219CB901AA6F2790027D7E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA3A81624DA142A00F851FE /* Build configuration list for PBXNativeTarget "MatrixKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA3A81424DA142A00F851FE /* Debug */,
+				AEA3A81524DA142A00F851FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
