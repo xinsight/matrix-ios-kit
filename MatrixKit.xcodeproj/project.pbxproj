@@ -222,6 +222,7 @@
 		AEA3A90B24DAF81500F851FE /* MXKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F02D21471B7109950002DE01 /* MXKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A91024DB130D00F851FE /* HPGrowingTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A90F24DB130D00F851FE /* HPGrowingTextView.framework */; platformFilter = ios; };
 		AEA3A91424DB140000F851FE /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A91324DB140000F851FE /* CallKit.framework */; };
+		AEA3A93624DB48C400F851FE /* MXKAppSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EA4CB21ADD6E98007197D2 /* MXKAppSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B11D3C7E20C032BD00938BCB /* MXKBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */; };
 		B125D0FD22D5D2C200570CA4 /* MXKUTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */; };
 		B125D10522D62A4900570CA4 /* MXKUTITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D10322D62A4800570CA4 /* MXKUTITests.swift */; };
@@ -1776,6 +1777,7 @@
 			files = (
 				AEA3A90824DAF36300F851FE /* MXKDataSource.h in Headers */,
 				AEA3A80E24DA142A00F851FE /* MatrixKit.h in Headers */,
+				AEA3A93624DB48C400F851FE /* MXKAppSettings.h in Headers */,
 				AEA3A90724DAF31E00F851FE /* MXKRoomDataSource.h in Headers */,
 				AEA3A90B24DAF81500F851FE /* MXKConstants.h in Headers */,
 				AEA3A90624DAF30E00F851FE /* MXKRoomDataSourceManager.h in Headers */,
