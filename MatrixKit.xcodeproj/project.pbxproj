@@ -214,8 +214,6 @@
 		AEA3A8E224DAC8F100F851FE /* MXKMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13652F7221E9E7A00313B09 /* MXKMessageTextView.m */; };
 		AEA3A8E324DAC8F100F851FE /* MatrixKitVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 328E410224CB135100DC4490 /* MatrixKitVersion.m */; };
 		AEA3A8E524DADAF800F851FE /* DTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8E424DADAF800F851FE /* DTFoundation.framework */; };
-		AEA3A90624DAF30E00F851FE /* MXKRoomDataSourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3230A3731ACADC1800CC57F5 /* MXKRoomDataSourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA3A90724DAF31E00F851FE /* MXKRoomDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F07E180B1ABC2EDA00DE3766 /* MXKRoomDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A90824DAF36300F851FE /* MXKDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 328AC48D1AA86E110044A6FB /* MXKDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A90924DAF3C600F851FE /* MXKView.h in Headers */ = {isa = PBXBuildFile; fileRef = F079333C1F38A6A600F04D4C /* MXKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A90A24DAF3CB00F851FE /* MXKView.m in Sources */ = {isa = PBXBuildFile; fileRef = F079333D1F38A6A600F04D4C /* MXKView.m */; };
@@ -223,6 +221,152 @@
 		AEA3A91024DB130D00F851FE /* HPGrowingTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A90F24DB130D00F851FE /* HPGrowingTextView.framework */; platformFilter = ios; };
 		AEA3A91424DB140000F851FE /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A91324DB140000F851FE /* CallKit.framework */; };
 		AEA3A93624DB48C400F851FE /* MXKAppSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EA4CB21ADD6E98007197D2 /* MXKAppSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A93B24DB49E400F851FE /* MXKEventFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BA86B921538FFC008F277E /* MXKEventFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A93C24DB49EB00F851FE /* MXKRoomNameStringLocalizations.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BA86B521538B35008F277E /* MXKRoomNameStringLocalizations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A93D24DB4A3300F851FE /* MXKMessageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = B13652F6221E9E7A00313B09 /* MXKMessageTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A93E24DB4A4400F851FE /* MXKRoomCreationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0868E0A1B18FC01004CBE80 /* MXKRoomCreationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A93F24DB4A4900F851FE /* MXKRoomActivitiesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EBE6611C04608100E7D953 /* MXKRoomActivitiesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A94024DB4A4F00F851FE /* MXKReceiptSendersContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = F093BCAB1C21BDD80010D05F /* MXKReceiptSendersContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A94124DB4A5900F851FE /* MXKPieChartHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = F08D35201FD0134900A0C2FB /* MXKPieChartHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A94224DB4A5F00F851FE /* MXKPieChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = F09E288C1AC1FEDA00C51E44 /* MXKPieChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A94324DB4A6400F851FE /* MXKImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F09E288A1AC1FEDA00C51E44 /* MXKImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A94424DB4A6B00F851FE /* MXKEventDetailsView.h in Headers */ = {isa = PBXBuildFile; fileRef = F07D74AA1AC5A29800D83B98 /* MXKEventDetailsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A94524DB4A7000F851FE /* MXKCellRendering.h in Headers */ = {isa = PBXBuildFile; fileRef = 328AC4901AA8AF5B0044A6FB /* MXKCellRendering.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A94624DB4A7B00F851FE /* MXKSearchTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3235CD7E1C33C6640084EA40 /* MXKSearchTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A94724DB4A8300F851FE /* MXKRoomTitleViewWithTopic.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B0ECD31B15C745005EB20D /* MXKRoomTitleViewWithTopic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A94824DB4A8B00F851FE /* MXKRoomTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B0ECC21B14B16C005EB20D /* MXKRoomTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A94924DB4A9200F851FE /* MXKRoomMemberTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F05FB17E1AD6643900DC0647 /* MXKRoomMemberTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A94A24DB4A9C00F851FE /* MXKRecentTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CEE22E1AB1EE0900F7C74D /* MXKRecentTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95224DB4AB600F851FE /* UIScrollView+MatrixKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A8955C1F7A55DF00BD6C2A /* UIScrollView+MatrixKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95324DB4AB600F851FE /* UIAlertController+MatrixKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F04F78331F17A1B60039485E /* UIAlertController+MatrixKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95424DB4AB600F851FE /* UIViewController+MatrixKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D9F4E021D54A08008007F2 /* UIViewController+MatrixKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95524DB4AB600F851FE /* NSBundle+MatrixKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F049FC1E1B2B878A00DD9D3C /* NSBundle+MatrixKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95624DB4AB600F851FE /* NSBundle+MXKLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = 323F9AF41F1E53730013AFDE /* NSBundle+MXKLanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95724DB4AB600F851FE /* MXAggregatedReactions+MatrixKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C3ABB822C4F23B00CA0449 /* MXAggregatedReactions+MatrixKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95824DB4AB600F851FE /* MXEvent+MatrixKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F07E18121ABC563900DE3766 /* MXEvent+MatrixKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95924DB4AB600F851FE /* MXRoom+Sync.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B046702101EB5E002A24A1 /* MXRoom+Sync.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95A24DB4AB600F851FE /* UITextView+MatrixKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B12C56F02396D75500FAC6DE /* UITextView+MatrixKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95B24DB4ABE00F851FE /* MXKGroupListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F05927AF1FDDA09C009F2A68 /* MXKGroupListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95C24DB4ABE00F851FE /* MXKLanguagePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32185B2A1F20AFEB00752141 /* MXKLanguagePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95D24DB4ABE00F851FE /* MXKCountryPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FDF2641E53586A00D23C47 /* MXKCountryPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95E24DB4ABE00F851FE /* MXKContactDetailsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F043562D1B2EF6FD0096FA02 /* MXKContactDetailsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A95F24DB4ABE00F851FE /* MXKRoomMemberDetailsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F043562F1B2EF6FD0096FA02 /* MXKRoomMemberDetailsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96024DB4ABE00F851FE /* MXKAccountDetailsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F096A3BC1B0B3DAA00AF1357 /* MXKAccountDetailsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96124DB4ABE00F851FE /* MXKAuthenticationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F06E767E1AF0FEB100980E5A /* MXKAuthenticationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96224DB4ABE00F851FE /* MXKCallViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F01C7DF71AFB6BF900FC2F59 /* MXKCallViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96324DB4ABE00F851FE /* MXKContactListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F095E4FB1B2586C6009606CE /* MXKContactListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96424DB4ABE00F851FE /* MXKNotificationSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F01449AF1B56A92800EA7D73 /* MXKNotificationSettingsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96524DB4ABE00F851FE /* MXKRecentListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CEE2201AB1E37600F7C74D /* MXKRecentListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96624DB4ABE00F851FE /* MXKAttachmentsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F080B4281BD6990300DE095E /* MXKAttachmentsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96724DB4ABE00F851FE /* MXKRoomMemberListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F05FB16F1AD4236800DC0647 /* MXKRoomMemberListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96824DB4ABE00F851FE /* MXKRoomViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3219CBBE1AA6FB470027D7E2 /* MXKRoomViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96924DB4ABE00F851FE /* MXKRoomSettingsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 71352D521C0ED240001D50B0 /* MXKRoomSettingsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96A24DB4ABE00F851FE /* MXKSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3235CD781C32DEBF0084EA40 /* MXKSearchViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96B24DB4ABE00F851FE /* MXKTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F00C25291ADBC60300065077 /* MXKTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96C24DB4ABE00F851FE /* MXKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F094EC651ABAC380006B8CE3 /* MXKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96D24DB4ABE00F851FE /* MXKViewControllerHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = F00C25281ADBC3C100065077 /* MXKViewControllerHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96E24DB4ABE00F851FE /* MXKWebViewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F0026B641C91EED1001D2C04 /* MXKWebViewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A96F24DB4AC400F851FE /* MXKGroupCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = F09A66651FD812CA004B13B5 /* MXKGroupCellData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A97024DB4AC400F851FE /* MXKGroupCellDataStoring.h in Headers */ = {isa = PBXBuildFile; fileRef = F05927A81FD813EF009F2A68 /* MXKGroupCellDataStoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A97124DB4AC400F851FE /* MXKSessionGroupsDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F09A66621FD8061D004B13B5 /* MXKSessionGroupsDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A97224DB4AC800F851FE /* MXKContact.h in Headers */ = {isa = PBXBuildFile; fileRef = F095E5011B25899F009606CE /* MXKContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A97324DB4AC800F851FE /* MXKContactField.h in Headers */ = {isa = PBXBuildFile; fileRef = F095E5031B25899F009606CE /* MXKContactField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A97424DB4AC900F851FE /* MXKContactManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F095E5051B25899F009606CE /* MXKContactManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A97524DB4AC900F851FE /* MXKEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = F095E5071B25899F009606CE /* MXKEmail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A97624DB4AC900F851FE /* MXKPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = F095E5091B25899F009606CE /* MXKPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A97724DB4AC900F851FE /* MXKSectionedContacts.h in Headers */ = {isa = PBXBuildFile; fileRef = F095E50B1B25899F009606CE /* MXKSectionedContacts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A97824DB4ACD00F851FE /* MXKAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = F06E76841AF0FEBC00980E5A /* MXKAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A97924DB4ACD00F851FE /* MXKAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F06E76861AF0FEBC00980E5A /* MXKAccountManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98224DB4AD400F851FE /* MXKAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = F0AF60341BD640E7002B1DB0 /* MXKAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98324DB4AD400F851FE /* MXKQueuedEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F07E18041ABC2EDA00DE3766 /* MXKQueuedEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98424DB4AD400F851FE /* MXKRoomBubbleCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = F07E18061ABC2EDA00DE3766 /* MXKRoomBubbleCellData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98524DB4AD400F851FE /* MXKRoomBubbleCellDataStoring.h in Headers */ = {isa = PBXBuildFile; fileRef = F07E18081ABC2EDA00DE3766 /* MXKRoomBubbleCellDataStoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98624DB4AD400F851FE /* MXKRoomBubbleComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = F07E18151ABC8B8B00DE3766 /* MXKRoomBubbleComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98724DB4AD400F851FE /* MXKRoomBubbleCellDataWithAppendingMode.h in Headers */ = {isa = PBXBuildFile; fileRef = F07E18091ABC2EDA00DE3766 /* MXKRoomBubbleCellDataWithAppendingMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98824DB4AD400F851FE /* MXKRoomBubbleCellDataWithIncomingAppendingMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DE22E61BCE3FF200284153 /* MXKRoomBubbleCellDataWithIncomingAppendingMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98924DB4AD400F851FE /* MXKRoomCreationInputs.h in Headers */ = {isa = PBXBuildFile; fileRef = F0DD7D831B7B3CF100C4BE02 /* MXKRoomCreationInputs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98A24DB4AD400F851FE /* MXKRoomDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F07E180B1ABC2EDA00DE3766 /* MXKRoomDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98B24DB4AD400F851FE /* MXKRoomDataSourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3230A3731ACADC1800CC57F5 /* MXKRoomDataSourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98C24DB4AD400F851FE /* MXKSendReplyEventStringLocalizations.h in Headers */ = {isa = PBXBuildFile; fileRef = B164380A210603CD00DBB3FD /* MXKSendReplyEventStringLocalizations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98D24DB4AD400F851FE /* MXKSlashCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = B1668ABE21072F93002B14F1 /* MXKSlashCommands.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98E24DB4ADA00F851FE /* MXKInterleavedRecentsDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F0AD3CBE1B288C05002E0899 /* MXKInterleavedRecentsDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A98F24DB4ADA00F851FE /* MXKRecentsDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF99001B0D1D4B00EAE373 /* MXKRecentsDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99024DB4ADA00F851FE /* MXKSessionRecentsDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CEE2261AB1EC9B00F7C74D /* MXKSessionRecentsDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99124DB4ADA00F851FE /* MXKRecentCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CEE2281AB1EC9B00F7C74D /* MXKRecentCellData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99224DB4ADA00F851FE /* MXKRecentCellDataStoring.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CEE22A1AB1EC9B00F7C74D /* MXKRecentCellDataStoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99324DB4ADF00F851FE /* MXKRoomMemberCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = F05FB1731AD5129500DC0647 /* MXKRoomMemberCellData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99424DB4ADF00F851FE /* MXKRoomMemberCellDataStoring.h in Headers */ = {isa = PBXBuildFile; fileRef = F05FB1751AD5129500DC0647 /* MXKRoomMemberCellDataStoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99524DB4ADF00F851FE /* MXKRoomMemberListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F05FB17A1AD5131300DC0647 /* MXKRoomMemberListDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99624DB4AE400F851FE /* MXKSearchCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3235CD711C32DC8A0084EA40 /* MXKSearchCellData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99724DB4AE400F851FE /* MXKSearchCellDataStoring.h in Headers */ = {isa = PBXBuildFile; fileRef = 3235CD731C32DC8A0084EA40 /* MXKSearchCellDataStoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99824DB4AE400F851FE /* MXKSearchDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3235CD741C32DC8A0084EA40 /* MXKSearchDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99924DB4AEA00F851FE /* MXKDirectoryServerCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205ED741E96905A003D65FA /* MXKDirectoryServerCellData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99A24DB4AEA00F851FE /* MXKDirectoryServerCellDataStoring.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205ED761E96905A003D65FA /* MXKDirectoryServerCellDataStoring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99B24DB4AEA00F851FE /* MXKDirectoryServersDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205ED771E96905A003D65FA /* MXKDirectoryServersDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99C24DB4AEF00F851FE /* MXK3PID.h in Headers */ = {isa = PBXBuildFile; fileRef = F01267481AF8A9440067D962 /* MXK3PID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99D24DB4AEF00F851FE /* MXKCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = 328AC4911AA8B05C0044A6FB /* MXKCellData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99E24DB4AF800F851FE /* MXKErrorPresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = B12C470620BECAF7004FBF96 /* MXKErrorPresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A99F24DB4AF800F851FE /* MXKErrorAlertPresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = B12C470820BECAF7004FBF96 /* MXKErrorAlertPresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9A024DB4AF800F851FE /* MXKErrorPresentable.h in Headers */ = {isa = PBXBuildFile; fileRef = B12C470B20BECAF7004FBF96 /* MXKErrorPresentable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9A124DB4AF800F851FE /* MXKErrorViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B12C470720BECAF7004FBF96 /* MXKErrorViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9A224DB4AF800F851FE /* MXKErrorPresentableBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = B12C470E20BED312004FBF96 /* MXKErrorPresentableBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9A324DB4AFD00F851FE /* MXKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F148C41AB31240005F5D4A /* MXKTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9A424DB4AFD00F851FE /* MXKResponderRageShaking.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F535BC1ACD748E00B603F8 /* MXKResponderRageShaking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9A524DB4AFD00F851FE /* MXKSoundPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 92663A6A1EF6E5B3005FB712 /* MXKSoundPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9A624DB4B0300F851FE /* MXKBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B11D3C7C20C032BD00938BCB /* MXKBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9A724DB4B0800F851FE /* MXKTableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B14DD61FF65C7C00F11630 /* MXKTableViewHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9A824DB4B0800F851FE /* MXKTableViewHeaderFooterWithLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B14DD81FF65C7C00F11630 /* MXKTableViewHeaderFooterWithLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9A924DB4B1400F851FE /* MXKGroupTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F05927AB1FD92E35009F2A68 /* MXKGroupTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9AA24DB4B1400F851FE /* MXKReadReceiptTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F01439421F067929006E5D8C /* MXKReadReceiptTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9AB24DB4B1400F851FE /* MXKEncryptionKeysImportView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FBDAF61E4484C40033C519 /* MXKEncryptionKeysImportView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9AC24DB4B1400F851FE /* MXKEncryptionKeysExportView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FBDAF91E44B0FC0033C519 /* MXKEncryptionKeysExportView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9AD24DB4B1400F851FE /* MXKEncryptionInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = F09617C01DE881D800093E9D /* MXKEncryptionInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9AE24DB4B1400F851FE /* MXKDeviceView.h in Headers */ = {isa = PBXBuildFile; fileRef = F09617BA1DE8478C00093E9D /* MXKDeviceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9AF24DB4B1400F851FE /* MXKCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F02528941C1092D300E1FE1B /* MXKCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9B024DB4B1400F851FE /* MXKMediaCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F080B42E1BD6991A00DE095E /* MXKMediaCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9B124DB4B1400F851FE /* MXKAccountTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF98F51B0C6EA000EAE373 /* MXKAccountTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9B224DB4B1800F851FE /* MXKAuthInputsEmailCodeBasedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F06E768B1AF0FED000980E5A /* MXKAuthInputsEmailCodeBasedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9B324DB4B1800F851FE /* MXKAuthInputsPasswordBasedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F06E768E1AF0FED000980E5A /* MXKAuthInputsPasswordBasedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9B424DB4B1800F851FE /* MXKAuthInputsView.h in Headers */ = {isa = PBXBuildFile; fileRef = F06E76911AF0FED000980E5A /* MXKAuthInputsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9B524DB4B1800F851FE /* MXKAuthenticationFallbackWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F06E76931AF0FED000980E5A /* MXKAuthenticationFallbackWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9B624DB4B1800F851FE /* MXKAuthenticationRecaptchaWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F011FA661CA3F43C009EA677 /* MXKAuthenticationRecaptchaWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9B724DB4B1F00F851FE /* MXKContactTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F095E5141B259942009606CE /* MXKContactTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9B824DB4B1F00F851FE /* MXKTableViewCellWithLabelAndMXKImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 71352D661C1588BE001D50B0 /* MXKTableViewCellWithLabelAndMXKImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9B924DB4B1F00F851FE /* MXKTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF98FF1B0CEAB900EAE373 /* MXKTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9BA24DB4B2600F851FE /* MXKTableViewCellWithButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF98FA1B0CDF6100EAE373 /* MXKTableViewCellWithButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9BB24DB4B2600F851FE /* MXKTableViewCellWithButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = F04356381B2EFEBD0096FA02 /* MXKTableViewCellWithButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9BC24DB4B2600F851FE /* MXKTableViewCellWithLabelAndButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F04356331B2EF9D80096FA02 /* MXKTableViewCellWithLabelAndButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9BD24DB4B2600F851FE /* MXKTableViewCellWithLabelAndImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0316E401B7E469C00F03620 /* MXKTableViewCellWithLabelAndImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9BE24DB4B2600F851FE /* MXKTableViewCellWithLabelAndSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF98CC1B0B7FDC00EAE373 /* MXKTableViewCellWithLabelAndSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9BF24DB4B2600F851FE /* MXKTableViewCellWithLabelAndSubLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF98CE1B0B7FDC00EAE373 /* MXKTableViewCellWithLabelAndSubLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9C024DB4B2600F851FE /* MXKTableViewCellWithLabelAndSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF98D61B0B7FDC00EAE373 /* MXKTableViewCellWithLabelAndSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9C124DB4B2600F851FE /* MXKTableViewCellWithLabelAndTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF98D01B0B7FDC00EAE373 /* MXKTableViewCellWithLabelAndTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9C224DB4B2600F851FE /* MXKTableViewCellWithLabelTextFieldAndButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF98D21B0B7FDC00EAE373 /* MXKTableViewCellWithLabelTextFieldAndButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9C324DB4B2600F851FE /* MXKTableViewCellWithPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF98D41B0B7FDC00EAE373 /* MXKTableViewCellWithPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9C424DB4B2600F851FE /* MXKTableViewCellWithSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F0316E331B7DEA5300F03620 /* MXKTableViewCellWithSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9C524DB4B2600F851FE /* MXKTableViewCellWithTextFieldAndButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF98D81B0B7FDC00EAE373 /* MXKTableViewCellWithTextFieldAndButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9C624DB4B2600F851FE /* MXKTableViewCellWithTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CF98DA1B0B7FDC00EAE373 /* MXKTableViewCellWithTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9C724DB4B2B00F851FE /* MXKPushRuleTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F01449A51B53FA7600EA7D73 /* MXKPushRuleTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9C824DB4B2B00F851FE /* MXKPushRuleCreationTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F01449A81B53FA7600EA7D73 /* MXKPushRuleCreationTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9C924DB4B3200F851FE /* MXKRoomBubbleTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 328AC4841AA75E000044A6FB /* MXKRoomBubbleTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9CA24DB4B3200F851FE /* MXKRoomEmptyBubbleTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F06CDD5C1EF017CB00870B75 /* MXKRoomEmptyBubbleTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9CB24DB4B3200F851FE /* MXKRoomIncomingBubbleTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 328AC4871AA75EDD0044A6FB /* MXKRoomIncomingBubbleTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9CC24DB4B3200F851FE /* MXKRoomIncomingTextMsgBubbleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F00FA8531C0864FA00E25826 /* MXKRoomIncomingTextMsgBubbleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9CD24DB4B3200F851FE /* MXKRoomIncomingTextMsgWithoutSenderInfoBubbleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F00FA85A1C0867F900E25826 /* MXKRoomIncomingTextMsgWithoutSenderInfoBubbleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9CE24DB4B3200F851FE /* MXKRoomIncomingAttachmentBubbleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F00FA8561C0867F900E25826 /* MXKRoomIncomingAttachmentBubbleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9CF24DB4B3200F851FE /* MXKRoomIncomingAttachmentWithoutSenderInfoBubbleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F00FA8581C0867F900E25826 /* MXKRoomIncomingAttachmentWithoutSenderInfoBubbleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9D024DB4B3200F851FE /* MXKRoomOutgoingBubbleTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 328AC48A1AA760520044A6FB /* MXKRoomOutgoingBubbleTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9D124DB4B3200F851FE /* MXKRoomOutgoingTextMsgBubbleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F00FA86D1C08A51B00E25826 /* MXKRoomOutgoingTextMsgBubbleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9D224DB4B3200F851FE /* MXKRoomOutgoingTextMsgWithoutSenderInfoBubbleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F00FA8701C08A51B00E25826 /* MXKRoomOutgoingTextMsgWithoutSenderInfoBubbleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9D324DB4B3200F851FE /* MXKRoomOutgoingAttachmentBubbleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F00FA8671C08A51B00E25826 /* MXKRoomOutgoingAttachmentBubbleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9D424DB4B3200F851FE /* MXKRoomOutgoingAttachmentWithoutSenderInfoBubbleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F00FA86A1C08A51B00E25826 /* MXKRoomOutgoingAttachmentWithoutSenderInfoBubbleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9D524DB4B3200F851FE /* MXKRoomIOSOutgoingBubbleTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 321313C61AEFC2D500A9B035 /* MXKRoomIOSOutgoingBubbleTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9D624DB4B3200F851FE /* MXKRoomIOSBubbleTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 329CF7791AA9FDE000A4753F /* MXKRoomIOSBubbleTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9D724DB4B3700F851FE /* MXKRoomInputToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0036EEC1AB98DC40008E432 /* MXKRoomInputToolbarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9D824DB4B3700F851FE /* MXKRoomInputToolbarViewWithHPGrowingText.h in Headers */ = {isa = PBXBuildFile; fileRef = F00BB4481AB840B300AE388E /* MXKRoomInputToolbarViewWithHPGrowingText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9D924DB4B3700F851FE /* MXKRoomInputToolbarViewWithSimpleTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F094D15B1ACC8B9300994F67 /* MXKRoomInputToolbarViewWithSimpleTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9DA24DB4B3D00F851FE /* MXKInterleavedRecentTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F0AD3CC41B289441002E0899 /* MXKInterleavedRecentTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9DB24DB4B3D00F851FE /* MXKPublicRoomTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F0868E0F1B1CAD58004CBE80 /* MXKPublicRoomTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B11D3C7E20C032BD00938BCB /* MXKBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */; };
 		B125D0FD22D5D2C200570CA4 /* MXKUTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */; };
 		B125D10522D62A4900570CA4 /* MXKUTITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D10322D62A4800570CA4 /* MXKUTITests.swift */; };
@@ -463,7 +607,6 @@
 		3219CB681AA6F2780027D7E2 /* MatrixKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3219CBBE1AA6FB470027D7E2 /* MXKRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXKRoomViewController.h; sourceTree = "<group>"; };
 		3219CBBF1AA6FB470027D7E2 /* MXKRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXKRoomViewController.m; sourceTree = "<group>"; };
-		3219CBC11AA6FB6B0027D7E2 /* MatrixKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixKit.h; sourceTree = "<group>"; };
 		3230A3701ACA835400CC57F5 /* MXKSampleJSQMessageMediaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXKSampleJSQMessageMediaData.h; sourceTree = "<group>"; };
 		3230A3711ACA835400CC57F5 /* MXKSampleJSQMessageMediaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXKSampleJSQMessageMediaData.m; sourceTree = "<group>"; };
 		3230A3731ACADC1800CC57F5 /* MXKRoomDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXKRoomDataSourceManager.h; sourceTree = "<group>"; };
@@ -991,7 +1134,6 @@
 				32CEE21C1AB1A57E00F7C74D /* Utils */,
 				3219CBBD1AA6FB1C0027D7E2 /* Views */,
 				B125D0FE22D5D32500570CA4 /* MatrixKit-Bridging-Header.h */,
-				3219CBC11AA6FB6B0027D7E2 /* MatrixKit.h */,
 				328E410224CB135100DC4490 /* MatrixKitVersion.m */,
 			);
 			path = MatrixKit;
@@ -1775,13 +1917,157 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA3A99E24DB4AF800F851FE /* MXKErrorPresentation.h in Headers */,
+				AEA3A99824DB4AE400F851FE /* MXKSearchDataSource.h in Headers */,
+				AEA3A98424DB4AD400F851FE /* MXKRoomBubbleCellData.h in Headers */,
+				AEA3A94524DB4A7000F851FE /* MXKCellRendering.h in Headers */,
+				AEA3A97624DB4AC900F851FE /* MXKPhoneNumber.h in Headers */,
+				AEA3A98E24DB4ADA00F851FE /* MXKInterleavedRecentsDataSource.h in Headers */,
+				AEA3A95324DB4AB600F851FE /* UIAlertController+MatrixKit.h in Headers */,
+				AEA3A9C124DB4B2600F851FE /* MXKTableViewCellWithLabelAndTextField.h in Headers */,
+				AEA3A9DA24DB4B3D00F851FE /* MXKInterleavedRecentTableViewCell.h in Headers */,
+				AEA3A95624DB4AB600F851FE /* NSBundle+MXKLanguage.h in Headers */,
+				AEA3A96524DB4ABE00F851FE /* MXKRecentListViewController.h in Headers */,
+				AEA3A97424DB4AC900F851FE /* MXKContactManager.h in Headers */,
+				AEA3A9D424DB4B3200F851FE /* MXKRoomOutgoingAttachmentWithoutSenderInfoBubbleCell.h in Headers */,
+				AEA3A95B24DB4ABE00F851FE /* MXKGroupListViewController.h in Headers */,
 				AEA3A90824DAF36300F851FE /* MXKDataSource.h in Headers */,
+				AEA3A9D924DB4B3700F851FE /* MXKRoomInputToolbarViewWithSimpleTextView.h in Headers */,
+				AEA3A9A824DB4B0800F851FE /* MXKTableViewHeaderFooterWithLabel.h in Headers */,
+				AEA3A93D24DB4A3300F851FE /* MXKMessageTextView.h in Headers */,
+				AEA3A9C024DB4B2600F851FE /* MXKTableViewCellWithLabelAndSwitch.h in Headers */,
+				AEA3A9A124DB4AF800F851FE /* MXKErrorViewModel.h in Headers */,
+				AEA3A94624DB4A7B00F851FE /* MXKSearchTableViewCell.h in Headers */,
+				AEA3A96324DB4ABE00F851FE /* MXKContactListViewController.h in Headers */,
+				AEA3A96624DB4ABE00F851FE /* MXKAttachmentsViewController.h in Headers */,
+				AEA3A9D824DB4B3700F851FE /* MXKRoomInputToolbarViewWithHPGrowingText.h in Headers */,
+				AEA3A9C824DB4B2B00F851FE /* MXKPushRuleCreationTableViewCell.h in Headers */,
+				AEA3A9D224DB4B3200F851FE /* MXKRoomOutgoingTextMsgWithoutSenderInfoBubbleCell.h in Headers */,
+				AEA3A9AB24DB4B1400F851FE /* MXKEncryptionKeysImportView.h in Headers */,
 				AEA3A80E24DA142A00F851FE /* MatrixKit.h in Headers */,
+				AEA3A93C24DB49EB00F851FE /* MXKRoomNameStringLocalizations.h in Headers */,
+				AEA3A99524DB4ADF00F851FE /* MXKRoomMemberListDataSource.h in Headers */,
+				AEA3A95A24DB4AB600F851FE /* UITextView+MatrixKit.h in Headers */,
+				AEA3A94724DB4A8300F851FE /* MXKRoomTitleViewWithTopic.h in Headers */,
+				AEA3A9D524DB4B3200F851FE /* MXKRoomIOSOutgoingBubbleTableViewCell.h in Headers */,
+				AEA3A9C524DB4B2600F851FE /* MXKTableViewCellWithTextFieldAndButton.h in Headers */,
+				AEA3A97324DB4AC800F851FE /* MXKContactField.h in Headers */,
+				AEA3A9AA24DB4B1400F851FE /* MXKReadReceiptTableViewCell.h in Headers */,
+				AEA3A9D024DB4B3200F851FE /* MXKRoomOutgoingBubbleTableViewCell.h in Headers */,
+				AEA3A96A24DB4ABE00F851FE /* MXKSearchViewController.h in Headers */,
+				AEA3A9A524DB4AFD00F851FE /* MXKSoundPlayer.h in Headers */,
+				AEA3A96024DB4ABE00F851FE /* MXKAccountDetailsViewController.h in Headers */,
+				AEA3A9BE24DB4B2600F851FE /* MXKTableViewCellWithLabelAndSlider.h in Headers */,
+				AEA3A9C724DB4B2B00F851FE /* MXKPushRuleTableViewCell.h in Headers */,
+				AEA3A96D24DB4ABE00F851FE /* MXKViewControllerHandling.h in Headers */,
+				AEA3A9CD24DB4B3200F851FE /* MXKRoomIncomingTextMsgWithoutSenderInfoBubbleCell.h in Headers */,
+				AEA3A96C24DB4ABE00F851FE /* MXKViewController.h in Headers */,
 				AEA3A93624DB48C400F851FE /* MXKAppSettings.h in Headers */,
-				AEA3A90724DAF31E00F851FE /* MXKRoomDataSource.h in Headers */,
+				AEA3A98C24DB4AD400F851FE /* MXKSendReplyEventStringLocalizations.h in Headers */,
+				AEA3A97724DB4AC900F851FE /* MXKSectionedContacts.h in Headers */,
+				AEA3A93E24DB4A4400F851FE /* MXKRoomCreationView.h in Headers */,
+				AEA3A99224DB4ADA00F851FE /* MXKRecentCellDataStoring.h in Headers */,
+				AEA3A99624DB4AE400F851FE /* MXKSearchCellData.h in Headers */,
+				AEA3A98724DB4AD400F851FE /* MXKRoomBubbleCellDataWithAppendingMode.h in Headers */,
+				AEA3A9AE24DB4B1400F851FE /* MXKDeviceView.h in Headers */,
+				AEA3A93B24DB49E400F851FE /* MXKEventFormatter.h in Headers */,
+				AEA3A9A024DB4AF800F851FE /* MXKErrorPresentable.h in Headers */,
+				AEA3A99A24DB4AEA00F851FE /* MXKDirectoryServerCellDataStoring.h in Headers */,
+				AEA3A96B24DB4ABE00F851FE /* MXKTableViewController.h in Headers */,
+				AEA3A98224DB4AD400F851FE /* MXKAttachment.h in Headers */,
+				AEA3A9C424DB4B2600F851FE /* MXKTableViewCellWithSearchBar.h in Headers */,
+				AEA3A95E24DB4ABE00F851FE /* MXKContactDetailsViewController.h in Headers */,
+				AEA3A94924DB4A9200F851FE /* MXKRoomMemberTableViewCell.h in Headers */,
+				AEA3A94124DB4A5900F851FE /* MXKPieChartHUD.h in Headers */,
+				AEA3A97124DB4AC400F851FE /* MXKSessionGroupsDataSource.h in Headers */,
+				AEA3A9AC24DB4B1400F851FE /* MXKEncryptionKeysExportView.h in Headers */,
+				AEA3A9CE24DB4B3200F851FE /* MXKRoomIncomingAttachmentBubbleCell.h in Headers */,
+				AEA3A9B024DB4B1400F851FE /* MXKMediaCollectionViewCell.h in Headers */,
+				AEA3A9B924DB4B1F00F851FE /* MXKTableViewCell.h in Headers */,
+				AEA3A9C324DB4B2600F851FE /* MXKTableViewCellWithPicker.h in Headers */,
+				AEA3A97824DB4ACD00F851FE /* MXKAccount.h in Headers */,
+				AEA3A9B524DB4B1800F851FE /* MXKAuthenticationFallbackWebView.h in Headers */,
 				AEA3A90B24DAF81500F851FE /* MXKConstants.h in Headers */,
-				AEA3A90624DAF30E00F851FE /* MXKRoomDataSourceManager.h in Headers */,
+				AEA3A9A724DB4B0800F851FE /* MXKTableViewHeaderFooterView.h in Headers */,
+				AEA3A98F24DB4ADA00F851FE /* MXKRecentsDataSource.h in Headers */,
+				AEA3A95424DB4AB600F851FE /* UIViewController+MatrixKit.h in Headers */,
+				AEA3A98824DB4AD400F851FE /* MXKRoomBubbleCellDataWithIncomingAppendingMode.h in Headers */,
+				AEA3A94A24DB4A9C00F851FE /* MXKRecentTableViewCell.h in Headers */,
+				AEA3A9B424DB4B1800F851FE /* MXKAuthInputsView.h in Headers */,
+				AEA3A97924DB4ACD00F851FE /* MXKAccountManager.h in Headers */,
+				AEA3A9CC24DB4B3200F851FE /* MXKRoomIncomingTextMsgBubbleCell.h in Headers */,
+				AEA3A9D624DB4B3200F851FE /* MXKRoomIOSBubbleTableViewCell.h in Headers */,
+				AEA3A9B724DB4B1F00F851FE /* MXKContactTableCell.h in Headers */,
+				AEA3A93F24DB4A4900F851FE /* MXKRoomActivitiesView.h in Headers */,
+				AEA3A9B224DB4B1800F851FE /* MXKAuthInputsEmailCodeBasedView.h in Headers */,
+				AEA3A9BC24DB4B2600F851FE /* MXKTableViewCellWithLabelAndButton.h in Headers */,
+				AEA3A96924DB4ABE00F851FE /* MXKRoomSettingsViewController.h in Headers */,
+				AEA3A96124DB4ABE00F851FE /* MXKAuthenticationViewController.h in Headers */,
+				AEA3A9A424DB4AFD00F851FE /* MXKResponderRageShaking.h in Headers */,
+				AEA3A94024DB4A4F00F851FE /* MXKReceiptSendersContainer.h in Headers */,
+				AEA3A9C624DB4B2600F851FE /* MXKTableViewCellWithTextView.h in Headers */,
+				AEA3A95224DB4AB600F851FE /* UIScrollView+MatrixKit.h in Headers */,
+				AEA3A99B24DB4AEA00F851FE /* MXKDirectoryServersDataSource.h in Headers */,
+				AEA3A9C924DB4B3200F851FE /* MXKRoomBubbleTableViewCell.h in Headers */,
+				AEA3A96424DB4ABE00F851FE /* MXKNotificationSettingsViewController.h in Headers */,
+				AEA3A97024DB4AC400F851FE /* MXKGroupCellDataStoring.h in Headers */,
+				AEA3A9DB24DB4B3D00F851FE /* MXKPublicRoomTableViewCell.h in Headers */,
+				AEA3A99C24DB4AEF00F851FE /* MXK3PID.h in Headers */,
+				AEA3A94324DB4A6400F851FE /* MXKImageView.h in Headers */,
+				AEA3A9A924DB4B1400F851FE /* MXKGroupTableViewCell.h in Headers */,
+				AEA3A9CA24DB4B3200F851FE /* MXKRoomEmptyBubbleTableViewCell.h in Headers */,
+				AEA3A95724DB4AB600F851FE /* MXAggregatedReactions+MatrixKit.h in Headers */,
+				AEA3A95824DB4AB600F851FE /* MXEvent+MatrixKit.h in Headers */,
+				AEA3A96224DB4ABE00F851FE /* MXKCallViewController.h in Headers */,
+				AEA3A98B24DB4AD400F851FE /* MXKRoomDataSourceManager.h in Headers */,
+				AEA3A9BF24DB4B2600F851FE /* MXKTableViewCellWithLabelAndSubLabel.h in Headers */,
+				AEA3A9BB24DB4B2600F851FE /* MXKTableViewCellWithButtons.h in Headers */,
+				AEA3A9A324DB4AFD00F851FE /* MXKTools.h in Headers */,
+				AEA3A99F24DB4AF800F851FE /* MXKErrorAlertPresentation.h in Headers */,
+				AEA3A98524DB4AD400F851FE /* MXKRoomBubbleCellDataStoring.h in Headers */,
+				AEA3A98D24DB4AD400F851FE /* MXKSlashCommands.h in Headers */,
+				AEA3A9CF24DB4B3200F851FE /* MXKRoomIncomingAttachmentWithoutSenderInfoBubbleCell.h in Headers */,
+				AEA3A9BA24DB4B2600F851FE /* MXKTableViewCellWithButton.h in Headers */,
+				AEA3A9D324DB4B3200F851FE /* MXKRoomOutgoingAttachmentBubbleCell.h in Headers */,
+				AEA3A99424DB4ADF00F851FE /* MXKRoomMemberCellDataStoring.h in Headers */,
+				AEA3A95524DB4AB600F851FE /* NSBundle+MatrixKit.h in Headers */,
+				AEA3A96724DB4ABE00F851FE /* MXKRoomMemberListViewController.h in Headers */,
+				AEA3A94824DB4A8B00F851FE /* MXKRoomTitleView.h in Headers */,
+				AEA3A9B624DB4B1800F851FE /* MXKAuthenticationRecaptchaWebView.h in Headers */,
+				AEA3A94224DB4A5F00F851FE /* MXKPieChartView.h in Headers */,
+				AEA3A98924DB4AD400F851FE /* MXKRoomCreationInputs.h in Headers */,
+				AEA3A95924DB4AB600F851FE /* MXRoom+Sync.h in Headers */,
+				AEA3A9AD24DB4B1400F851FE /* MXKEncryptionInfoView.h in Headers */,
+				AEA3A99324DB4ADF00F851FE /* MXKRoomMemberCellData.h in Headers */,
+				AEA3A98624DB4AD400F851FE /* MXKRoomBubbleComponent.h in Headers */,
+				AEA3A9B324DB4B1800F851FE /* MXKAuthInputsPasswordBasedView.h in Headers */,
+				AEA3A99124DB4ADA00F851FE /* MXKRecentCellData.h in Headers */,
+				AEA3A98324DB4AD400F851FE /* MXKQueuedEvent.h in Headers */,
+				AEA3A96824DB4ABE00F851FE /* MXKRoomViewController.h in Headers */,
+				AEA3A9AF24DB4B1400F851FE /* MXKCollectionViewCell.h in Headers */,
+				AEA3A97524DB4AC900F851FE /* MXKEmail.h in Headers */,
+				AEA3A9CB24DB4B3200F851FE /* MXKRoomIncomingBubbleTableViewCell.h in Headers */,
+				AEA3A99D24DB4AEF00F851FE /* MXKCellData.h in Headers */,
+				AEA3A99724DB4AE400F851FE /* MXKSearchCellDataStoring.h in Headers */,
+				AEA3A95C24DB4ABE00F851FE /* MXKLanguagePickerViewController.h in Headers */,
+				AEA3A94424DB4A6B00F851FE /* MXKEventDetailsView.h in Headers */,
+				AEA3A9D724DB4B3700F851FE /* MXKRoomInputToolbarView.h in Headers */,
+				AEA3A95F24DB4ABE00F851FE /* MXKRoomMemberDetailsViewController.h in Headers */,
+				AEA3A9A624DB4B0300F851FE /* MXKBarButtonItem.h in Headers */,
+				AEA3A96F24DB4AC400F851FE /* MXKGroupCellData.h in Headers */,
+				AEA3A98A24DB4AD400F851FE /* MXKRoomDataSource.h in Headers */,
+				AEA3A97224DB4AC800F851FE /* MXKContact.h in Headers */,
+				AEA3A95D24DB4ABE00F851FE /* MXKCountryPickerViewController.h in Headers */,
+				AEA3A9BD24DB4B2600F851FE /* MXKTableViewCellWithLabelAndImageView.h in Headers */,
+				AEA3A9D124DB4B3200F851FE /* MXKRoomOutgoingTextMsgBubbleCell.h in Headers */,
+				AEA3A99924DB4AEA00F851FE /* MXKDirectoryServerCellData.h in Headers */,
+				AEA3A9A224DB4AF800F851FE /* MXKErrorPresentableBuilder.h in Headers */,
+				AEA3A96E24DB4ABE00F851FE /* MXKWebViewViewController.h in Headers */,
+				AEA3A9B824DB4B1F00F851FE /* MXKTableViewCellWithLabelAndMXKImageView.h in Headers */,
+				AEA3A99024DB4ADA00F851FE /* MXKSessionRecentsDataSource.h in Headers */,
 				AEA3A90924DAF3C600F851FE /* MXKView.h in Headers */,
+				AEA3A9C224DB4B2600F851FE /* MXKTableViewCellWithLabelTextFieldAndButton.h in Headers */,
+				AEA3A9B124DB4B1400F851FE /* MXKAccountTableViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
