@@ -20,7 +20,8 @@
 
 @import MatrixSDK;
 @import DTCoreText;
-@import cmark;
+// FIXME: temp disable cmark
+//@import cmark;
 
 #import "MXEvent+MatrixKit.h"
 #import "NSBundle+MatrixKit.h"
@@ -1869,7 +1870,9 @@ static NSString *const kHTMLATagRegexPattern = @"<a href=\"(.*?)\">([^<]*)</a>";
 - (NSString *)htmlStringFromMarkdownString:(NSString *)markdownString
 {
     const char *cstr = [markdownString cStringUsingEncoding: NSUTF8StringEncoding];
-    const char *htmlCString = cmark_markdown_to_html(cstr, strlen(cstr), CMARK_OPT_HARDBREAKS);
+    const char *htmlCString = cstr;
+    // TEMP: disable cmark
+//    const char *htmlCString = cmark_markdown_to_html(cstr, strlen(cstr), CMARK_OPT_HARDBREAKS);
     NSString *htmlString = [[NSString alloc] initWithCString:htmlCString encoding:NSUTF8StringEncoding];
 
     // Strip off the trailing newline, if it exists.

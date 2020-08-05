@@ -16,7 +16,7 @@
 
 #import "MXKCountryPickerViewController.h"
 
-@import libPhoneNumber_iOS;
+@import libPhoneNumberiOS;
 
 #import "NSBundle+MatrixKit.h"
 

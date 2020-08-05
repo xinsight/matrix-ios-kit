@@ -2,15 +2,15 @@
 # s.dependency 'MatrixSDK', "0.16.8"
 github "xinsight/matrix-ios-sdk" "carthage"
 
-#  s.dependency 'HPGrowingTextView', '~> 1.1'
-
+# github "HansPinckaers/GrowingTextView" "1.1"
+github "xinsight/GrowingTextView" "carthage"
 
 # s.dependency 'libPhoneNumber-iOS', '~> 0.9.13'
 github "iziz/libPhoneNumber-iOS"
 
 github "Cocoanetics/DTCoreText" "1.6.23"
-# DTCoreText requires DTFoundation
-github "Cocoanetics/DTFoundation" "1.7.5"
+# !: needed a newer version to get the shared target
+github "Cocoanetics/DTFoundation" "1.7.14"
 
 # s.dependency 'cmark', '~> 0.24.1'
 

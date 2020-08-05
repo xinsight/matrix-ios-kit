@@ -214,6 +214,8 @@
 		AEA3A8E124DAC8F100F851FE /* MXKRoomCreationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0868E0B1B18FC01004CBE80 /* MXKRoomCreationView.m */; };
 		AEA3A8E224DAC8F100F851FE /* MXKMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13652F7221E9E7A00313B09 /* MXKMessageTextView.m */; };
 		AEA3A8E324DAC8F100F851FE /* MatrixKitVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 328E410224CB135100DC4490 /* MatrixKitVersion.m */; };
+		AEA3A8E524DADAF800F851FE /* DTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8E424DADAF800F851FE /* DTFoundation.framework */; };
+		AEA3A8FF24DADF7000F851FE /* GrowingTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8FE24DADF7000F851FE /* GrowingTextView.framework */; platformFilter = ios; };
 		B11D3C7E20C032BD00938BCB /* MXKBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */; };
 		B125D0FD22D5D2C200570CA4 /* MXKUTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */; };
 		B125D10522D62A4900570CA4 /* MXKUTITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D10322D62A4800570CA4 /* MXKUTITests.swift */; };
@@ -549,6 +551,8 @@
 		AEA3A81D24DA145B00F851FE /* GZIP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GZIP.framework; path = Carthage/Build/iOS/GZIP.framework; sourceTree = "<group>"; };
 		AEA3A81E24DA145B00F851FE /* DTCoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTCoreText.framework; path = Carthage/Build/iOS/DTCoreText.framework; sourceTree = "<group>"; };
 		AEA3A81F24DA145B00F851FE /* OLMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OLMKit.framework; path = Carthage/Build/iOS/OLMKit.framework; sourceTree = "<group>"; };
+		AEA3A8E424DADAF800F851FE /* DTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFoundation.framework; path = Carthage/Build/iOS/DTFoundation.framework; sourceTree = "<group>"; };
+		AEA3A8FE24DADF7000F851FE /* GrowingTextView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GrowingTextView.framework; path = Carthage/Build/iOS/GrowingTextView.framework; sourceTree = "<group>"; };
 		B11D3C7C20C032BD00938BCB /* MXKBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXKBarButtonItem.h; sourceTree = "<group>"; };
 		B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXKBarButtonItem.m; sourceTree = "<group>"; };
 		B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXKUTI.swift; sourceTree = "<group>"; };
@@ -892,11 +896,13 @@
 				AEA3A82A24DA145C00F851FE /* AFNetworking.framework in Frameworks */,
 				AEA3A82224DA145C00F851FE /* libbase58.framework in Frameworks */,
 				AEA3A82024DA145B00F851FE /* Realm.framework in Frameworks */,
+				AEA3A8FF24DADF7000F851FE /* GrowingTextView.framework in Frameworks */,
 				AEA3A82424DA145C00F851FE /* RealmSwift.framework in Frameworks */,
 				AEA3A82824DA145C00F851FE /* MatrixSDK.framework in Frameworks */,
 				AEA3A82E24DA145C00F851FE /* DTCoreText.framework in Frameworks */,
 				AEA3A83024DA145C00F851FE /* OLMKit.framework in Frameworks */,
 				AEA3A82C24DA145C00F851FE /* GZIP.framework in Frameworks */,
+				AEA3A8E524DADAF800F851FE /* DTFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1352,6 +1358,8 @@
 		CC4E6F6D4101B9B731F29FB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEA3A8FE24DADF7000F851FE /* GrowingTextView.framework */,
+				AEA3A8E424DADAF800F851FE /* DTFoundation.framework */,
 				AEA3A81C24DA145B00F851FE /* AFNetworking.framework */,
 				AEA3A81E24DA145B00F851FE /* DTCoreText.framework */,
 				AEA3A81D24DA145B00F851FE /* GZIP.framework */,
