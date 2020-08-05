@@ -8,9 +8,10 @@ github "xinsight/matrix-ios-sdk" "carthage"
 # s.dependency 'libPhoneNumber-iOS', '~> 0.9.13'
 github "iziz/libPhoneNumber-iOS"
 
-# s.dependency 'DTCoreText', '~> 1.6.23'
-github "Cocoanetics/DTCoreText" "1.6.23" 
+github "Cocoanetics/DTCoreText" "1.6.23"
+# DTCoreText requires DTFoundation
+github "Cocoanetics/DTFoundation" "1.7.5"
 
-  # s.dependency 'cmark', '~> 0.24.1'
+# s.dependency 'cmark', '~> 0.24.1'
 
 

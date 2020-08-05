@@ -19,7 +19,7 @@
 
 @import MatrixSDK;
 @import AddressBook;
-@import libPhoneNumber_iOS;
+@import libPhoneNumberiOS;
 @import DTCoreText;
 
 #import "NSBundle+MatrixKit.h"
