@@ -92,7 +92,6 @@
 		AEA3A86724DAC86600F851FE /* MXKRoomMemberDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04356301B2EF6FD0096FA02 /* MXKRoomMemberDetailsViewController.m */; };
 		AEA3A86824DAC86600F851FE /* MXKAccountDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F096A3BD1B0B3DAA00AF1357 /* MXKAccountDetailsViewController.m */; };
 		AEA3A86924DAC86600F851FE /* MXKAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E767F1AF0FEB100980E5A /* MXKAuthenticationViewController.m */; };
-		AEA3A86A24DAC86600F851FE /* MXKCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01C7DF81AFB6BF900FC2F59 /* MXKCallViewController.m */; };
 		AEA3A86B24DAC86600F851FE /* MXKContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F095E4FC1B2586C6009606CE /* MXKContactListViewController.m */; };
 		AEA3A86C24DAC86600F851FE /* MXKNotificationSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01449B01B56A92800EA7D73 /* MXKNotificationSettingsViewController.m */; };
 		AEA3A86D24DAC86600F851FE /* MXKRecentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CEE2211AB1E37600F7C74D /* MXKRecentListViewController.m */; };
@@ -2338,7 +2337,6 @@
 				AEA3A86524DAC86600F851FE /* MXKCountryPickerViewController.m in Sources */,
 				AEA3A8B924DAC8D500F851FE /* MXKTableViewCellWithLabelAndSubLabel.m in Sources */,
 				AEA3A87324DAC86600F851FE /* MXKTableViewController.m in Sources */,
-				AEA3A86A24DAC86600F851FE /* MXKCallViewController.m in Sources */,
 				AEA3A8A924DAC8CA00F851FE /* MXKCollectionViewCell.m in Sources */,
 				AEA3A8BF24DAC8D600F851FE /* MXKTableViewCellWithTextFieldAndButton.m in Sources */,
 				AEA3A86424DAC86600F851FE /* MXKLanguagePickerViewController.m in Sources */,
