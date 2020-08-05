@@ -72,6 +72,148 @@
 		AEA3A82C24DA145C00F851FE /* GZIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81D24DA145B00F851FE /* GZIP.framework */; };
 		AEA3A82E24DA145C00F851FE /* DTCoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81E24DA145B00F851FE /* DTCoreText.framework */; };
 		AEA3A83024DA145C00F851FE /* OLMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A81F24DA145B00F851FE /* OLMKit.framework */; platformFilter = ios; };
+		AEA3A84C24DAC75400F851FE /* MXKConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F02D21481B7109950002DE01 /* MXKConstants.m */; };
+		AEA3A85724DAC83E00F851FE /* MXKAttachmentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE14CA631E80122600E329A3 /* MXKAttachmentAnimator.m */; };
+		AEA3A85824DAC83E00F851FE /* MXKAttachmentInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE14CA651E80122600E329A3 /* MXKAttachmentInteractionController.m */; };
+		AEA3A85924DAC85600F851FE /* MatrixKitAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F066F5221B2B130A00835880 /* MatrixKitAssets.bundle */; };
+		AEA3A85A24DAC86100F851FE /* UIScrollView+MatrixKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A8955D1F7A55DF00BD6C2A /* UIScrollView+MatrixKit.m */; };
+		AEA3A85B24DAC86100F851FE /* UIAlertController+MatrixKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F04F78341F17A1B60039485E /* UIAlertController+MatrixKit.m */; };
+		AEA3A85C24DAC86100F851FE /* UIViewController+MatrixKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D9F4E121D54A08008007F2 /* UIViewController+MatrixKit.m */; };
+		AEA3A85D24DAC86100F851FE /* NSBundle+MatrixKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F049FC1F1B2B878A00DD9D3C /* NSBundle+MatrixKit.m */; };
+		AEA3A85E24DAC86100F851FE /* NSBundle+MXKLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 323F9AF51F1E53730013AFDE /* NSBundle+MXKLanguage.m */; };
+		AEA3A85F24DAC86100F851FE /* MXAggregatedReactions+MatrixKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C3ABB922C4F23B00CA0449 /* MXAggregatedReactions+MatrixKit.m */; };
+		AEA3A86024DAC86100F851FE /* MXEvent+MatrixKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E18131ABC563900DE3766 /* MXEvent+MatrixKit.m */; };
+		AEA3A86124DAC86100F851FE /* MXRoom+Sync.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B046712101EB5E002A24A1 /* MXRoom+Sync.m */; };
+		AEA3A86224DAC86100F851FE /* UITextView+MatrixKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C56F12396D75500FAC6DE /* UITextView+MatrixKit.m */; };
+		AEA3A86324DAC86600F851FE /* MXKGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05927B01FDDA09D009F2A68 /* MXKGroupListViewController.m */; };
+		AEA3A86424DAC86600F851FE /* MXKLanguagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32185B2B1F20AFEB00752141 /* MXKLanguagePickerViewController.m */; };
+		AEA3A86524DAC86600F851FE /* MXKCountryPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FDF2651E53586A00D23C47 /* MXKCountryPickerViewController.m */; };
+		AEA3A86624DAC86600F851FE /* MXKContactDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F043562E1B2EF6FD0096FA02 /* MXKContactDetailsViewController.m */; };
+		AEA3A86724DAC86600F851FE /* MXKRoomMemberDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04356301B2EF6FD0096FA02 /* MXKRoomMemberDetailsViewController.m */; };
+		AEA3A86824DAC86600F851FE /* MXKAccountDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F096A3BD1B0B3DAA00AF1357 /* MXKAccountDetailsViewController.m */; };
+		AEA3A86924DAC86600F851FE /* MXKAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E767F1AF0FEB100980E5A /* MXKAuthenticationViewController.m */; };
+		AEA3A86A24DAC86600F851FE /* MXKCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01C7DF81AFB6BF900FC2F59 /* MXKCallViewController.m */; };
+		AEA3A86B24DAC86600F851FE /* MXKContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F095E4FC1B2586C6009606CE /* MXKContactListViewController.m */; };
+		AEA3A86C24DAC86600F851FE /* MXKNotificationSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01449B01B56A92800EA7D73 /* MXKNotificationSettingsViewController.m */; };
+		AEA3A86D24DAC86600F851FE /* MXKRecentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CEE2211AB1E37600F7C74D /* MXKRecentListViewController.m */; };
+		AEA3A86E24DAC86600F851FE /* MXKAttachmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F080B4291BD6990300DE095E /* MXKAttachmentsViewController.m */; };
+		AEA3A86F24DAC86600F851FE /* MXKRoomMemberListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05FB1701AD4236800DC0647 /* MXKRoomMemberListViewController.m */; };
+		AEA3A87024DAC86600F851FE /* MXKRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3219CBBF1AA6FB470027D7E2 /* MXKRoomViewController.m */; };
+		AEA3A87124DAC86600F851FE /* MXKRoomSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71352D531C0ED240001D50B0 /* MXKRoomSettingsViewController.m */; };
+		AEA3A87224DAC86600F851FE /* MXKSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235CD791C32DEBF0084EA40 /* MXKSearchViewController.m */; };
+		AEA3A87324DAC86600F851FE /* MXKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F00C252A1ADBC60300065077 /* MXKTableViewController.m */; };
+		AEA3A87424DAC86600F851FE /* MXKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F094EC661ABAC380006B8CE3 /* MXKViewController.m */; };
+		AEA3A87524DAC86600F851FE /* MXKWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0026B651C91EED1001D2C04 /* MXKWebViewViewController.m */; };
+		AEA3A87624DAC86A00F851FE /* MXKGroupCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = F09A66661FD812CA004B13B5 /* MXKGroupCellData.m */; };
+		AEA3A87724DAC86A00F851FE /* MXKSessionGroupsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F09A66631FD8061D004B13B5 /* MXKSessionGroupsDataSource.m */; };
+		AEA3A87824DAC86D00F851FE /* MXKContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F095E5021B25899F009606CE /* MXKContact.m */; };
+		AEA3A87924DAC86D00F851FE /* MXKContactField.m in Sources */ = {isa = PBXBuildFile; fileRef = F095E5041B25899F009606CE /* MXKContactField.m */; };
+		AEA3A87A24DAC86D00F851FE /* MXKContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F095E5061B25899F009606CE /* MXKContactManager.m */; };
+		AEA3A87B24DAC86D00F851FE /* MXKEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = F095E5081B25899F009606CE /* MXKEmail.m */; };
+		AEA3A87C24DAC86D00F851FE /* MXKPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = F095E50A1B25899F009606CE /* MXKPhoneNumber.m */; };
+		AEA3A87D24DAC86D00F851FE /* MXKSectionedContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = F095E50C1B25899F009606CE /* MXKSectionedContacts.m */; };
+		AEA3A87E24DAC87000F851FE /* MXKAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E76851AF0FEBC00980E5A /* MXKAccount.m */; };
+		AEA3A87F24DAC87000F851FE /* MXKAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E76871AF0FEBC00980E5A /* MXKAccountManager.m */; };
+		AEA3A88024DAC87400F851FE /* MXKAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AF60351BD640E7002B1DB0 /* MXKAttachment.m */; };
+		AEA3A88124DAC87400F851FE /* MXKQueuedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E18051ABC2EDA00DE3766 /* MXKQueuedEvent.m */; };
+		AEA3A88224DAC87400F851FE /* MXKRoomBubbleCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E18071ABC2EDA00DE3766 /* MXKRoomBubbleCellData.m */; };
+		AEA3A88324DAC87400F851FE /* MXKRoomBubbleComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E18161ABC8B8B00DE3766 /* MXKRoomBubbleComponent.m */; };
+		AEA3A88424DAC87400F851FE /* MXKRoomBubbleCellDataWithAppendingMode.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E180A1ABC2EDA00DE3766 /* MXKRoomBubbleCellDataWithAppendingMode.m */; };
+		AEA3A88524DAC87400F851FE /* MXKRoomBubbleCellDataWithIncomingAppendingMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DE22E51BCE3FF200284153 /* MXKRoomBubbleCellDataWithIncomingAppendingMode.m */; };
+		AEA3A88624DAC87400F851FE /* MXKRoomCreationInputs.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DD7D841B7B3CF100C4BE02 /* MXKRoomCreationInputs.m */; };
+		AEA3A88724DAC87400F851FE /* MXKRoomDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E180C1ABC2EDA00DE3766 /* MXKRoomDataSource.m */; };
+		AEA3A88824DAC87400F851FE /* MXKRoomDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3230A3741ACADC1800CC57F5 /* MXKRoomDataSourceManager.m */; };
+		AEA3A88924DAC87400F851FE /* MXKSendReplyEventStringLocalizations.m in Sources */ = {isa = PBXBuildFile; fileRef = B164380B210603CD00DBB3FD /* MXKSendReplyEventStringLocalizations.m */; };
+		AEA3A88A24DAC87400F851FE /* MXKSlashCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = B1668ABF21072F93002B14F1 /* MXKSlashCommands.m */; };
+		AEA3A88B24DAC87700F851FE /* MXKInterleavedRecentsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AD3CBF1B288C05002E0899 /* MXKInterleavedRecentsDataSource.m */; };
+		AEA3A88C24DAC87700F851FE /* MXKRecentsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF99011B0D1D4B00EAE373 /* MXKRecentsDataSource.m */; };
+		AEA3A88D24DAC87700F851FE /* MXKSessionRecentsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CEE2271AB1EC9B00F7C74D /* MXKSessionRecentsDataSource.m */; };
+		AEA3A88E24DAC87700F851FE /* MXKRecentCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CEE2291AB1EC9B00F7C74D /* MXKRecentCellData.m */; };
+		AEA3A88F24DAC87B00F851FE /* MXKRoomMemberCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = F05FB1741AD5129500DC0647 /* MXKRoomMemberCellData.m */; };
+		AEA3A89024DAC87B00F851FE /* MXKRoomMemberListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F05FB17B1AD5131300DC0647 /* MXKRoomMemberListDataSource.m */; };
+		AEA3A89124DAC87E00F851FE /* MXKSearchCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235CD721C32DC8A0084EA40 /* MXKSearchCellData.m */; };
+		AEA3A89224DAC87E00F851FE /* MXKSearchDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235CD751C32DC8A0084EA40 /* MXKSearchDataSource.m */; };
+		AEA3A89324DAC88100F851FE /* MXKDirectoryServerCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205ED751E96905A003D65FA /* MXKDirectoryServerCellData.m */; };
+		AEA3A89424DAC88100F851FE /* MXKDirectoryServersDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205ED781E96905A003D65FA /* MXKDirectoryServersDataSource.m */; };
+		AEA3A89524DAC88400F851FE /* MXK3PID.m in Sources */ = {isa = PBXBuildFile; fileRef = F01267491AF8A9440067D962 /* MXK3PID.m */; };
+		AEA3A89624DAC88400F851FE /* MXKAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EA4CB31ADD6E98007197D2 /* MXKAppSettings.m */; };
+		AEA3A89724DAC88400F851FE /* MXKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 328AC48E1AA86E110044A6FB /* MXKDataSource.m */; };
+		AEA3A89824DAC88400F851FE /* MXKCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 328AC4921AA8B05C0044A6FB /* MXKCellData.m */; };
+		AEA3A89924DAC89000F851FE /* MXKErrorAlertPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C470A20BECAF7004FBF96 /* MXKErrorAlertPresentation.m */; };
+		AEA3A89A24DAC89000F851FE /* MXKErrorViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C470920BECAF7004FBF96 /* MXKErrorViewModel.m */; };
+		AEA3A89B24DAC89000F851FE /* MXKErrorPresentableBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C470F20BED312004FBF96 /* MXKErrorPresentableBuilder.m */; };
+		AEA3A89C24DAC89800F851FE /* MXKEventFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BA86B821538FFC008F277E /* MXKEventFormatter.m */; };
+		AEA3A89D24DAC89A00F851FE /* MXKRoomNameStringLocalizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BA86B621538B35008F277E /* MXKRoomNameStringLocalizations.m */; };
+		AEA3A89E24DAC8A200F851FE /* MXKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F148C51AB31240005F5D4A /* MXKTools.m */; };
+		AEA3A89F24DAC8A200F851FE /* MXKSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92663A6B1EF6E5B3005FB712 /* MXKSoundPlayer.m */; };
+		AEA3A8A024DAC8A800F851FE /* MXKBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */; };
+		AEA3A8A124DAC8BF00F851FE /* MXKTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B14DD71FF65C7C00F11630 /* MXKTableViewHeaderFooterView.m */; };
+		AEA3A8A224DAC8BF00F851FE /* MXKTableViewHeaderFooterWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B14DD91FF65C7C00F11630 /* MXKTableViewHeaderFooterWithLabel.m */; };
+		AEA3A8A324DAC8CA00F851FE /* MXKGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F05927AC1FD92E36009F2A68 /* MXKGroupTableViewCell.m */; };
+		AEA3A8A424DAC8CA00F851FE /* MXKReadReceiptTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01439431F067929006E5D8C /* MXKReadReceiptTableViewCell.m */; };
+		AEA3A8A524DAC8CA00F851FE /* MXKEncryptionKeysImportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBDAF71E4484C40033C519 /* MXKEncryptionKeysImportView.m */; };
+		AEA3A8A624DAC8CA00F851FE /* MXKEncryptionKeysExportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBDAFA1E44B0FC0033C519 /* MXKEncryptionKeysExportView.m */; };
+		AEA3A8A724DAC8CA00F851FE /* MXKEncryptionInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F09617C11DE881D800093E9D /* MXKEncryptionInfoView.m */; };
+		AEA3A8A824DAC8CA00F851FE /* MXKDeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F09617BB1DE8478C00093E9D /* MXKDeviceView.m */; };
+		AEA3A8A924DAC8CA00F851FE /* MXKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F02528951C1092D300E1FE1B /* MXKCollectionViewCell.m */; };
+		AEA3A8AA24DAC8CA00F851FE /* MXKMediaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F080B42F1BD6991A00DE095E /* MXKMediaCollectionViewCell.m */; };
+		AEA3A8AB24DAC8CA00F851FE /* MXKAccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF98F61B0C6EA000EAE373 /* MXKAccountTableViewCell.m */; };
+		AEA3A8AC24DAC8CF00F851FE /* MXKAuthInputsEmailCodeBasedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E768C1AF0FED000980E5A /* MXKAuthInputsEmailCodeBasedView.m */; };
+		AEA3A8AD24DAC8CF00F851FE /* MXKAuthInputsPasswordBasedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E768F1AF0FED000980E5A /* MXKAuthInputsPasswordBasedView.m */; };
+		AEA3A8AE24DAC8CF00F851FE /* MXKAuthInputsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E76921AF0FED000980E5A /* MXKAuthInputsView.m */; };
+		AEA3A8AF24DAC8CF00F851FE /* MXKAuthenticationFallbackWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E76941AF0FED000980E5A /* MXKAuthenticationFallbackWebView.m */; };
+		AEA3A8B024DAC8CF00F851FE /* MXKAuthenticationRecaptchaWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F011FA671CA3F43C009EA677 /* MXKAuthenticationRecaptchaWebView.m */; };
+		AEA3A8B124DAC8D300F851FE /* MXKContactTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F095E5151B259942009606CE /* MXKContactTableCell.m */; };
+		AEA3A8B224DAC8D500F851FE /* MXKTableViewCellWithLabelAndMXKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71352D671C1588BE001D50B0 /* MXKTableViewCellWithLabelAndMXKImageView.m */; };
+		AEA3A8B324DAC8D500F851FE /* MXKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA9C691B3438300065B4B7 /* MXKTableViewCell.m */; };
+		AEA3A8B424DAC8D500F851FE /* MXKTableViewCellWithButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF98FB1B0CDF6100EAE373 /* MXKTableViewCellWithButton.m */; };
+		AEA3A8B524DAC8D500F851FE /* MXKTableViewCellWithButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = F04356391B2EFEBD0096FA02 /* MXKTableViewCellWithButtons.m */; };
+		AEA3A8B624DAC8D500F851FE /* MXKTableViewCellWithLabelAndButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F04356341B2EF9D80096FA02 /* MXKTableViewCellWithLabelAndButton.m */; };
+		AEA3A8B724DAC8D500F851FE /* MXKTableViewCellWithLabelAndImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0316E411B7E469C00F03620 /* MXKTableViewCellWithLabelAndImageView.m */; };
+		AEA3A8B824DAC8D500F851FE /* MXKTableViewCellWithLabelAndSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF98CD1B0B7FDC00EAE373 /* MXKTableViewCellWithLabelAndSlider.m */; };
+		AEA3A8B924DAC8D500F851FE /* MXKTableViewCellWithLabelAndSubLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF98CF1B0B7FDC00EAE373 /* MXKTableViewCellWithLabelAndSubLabel.m */; };
+		AEA3A8BA24DAC8D500F851FE /* MXKTableViewCellWithLabelAndSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF98D71B0B7FDC00EAE373 /* MXKTableViewCellWithLabelAndSwitch.m */; };
+		AEA3A8BB24DAC8D500F851FE /* MXKTableViewCellWithLabelAndTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF98D11B0B7FDC00EAE373 /* MXKTableViewCellWithLabelAndTextField.m */; };
+		AEA3A8BC24DAC8D500F851FE /* MXKTableViewCellWithLabelTextFieldAndButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF98D31B0B7FDC00EAE373 /* MXKTableViewCellWithLabelTextFieldAndButton.m */; };
+		AEA3A8BD24DAC8D600F851FE /* MXKTableViewCellWithPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF98D51B0B7FDC00EAE373 /* MXKTableViewCellWithPicker.m */; };
+		AEA3A8BE24DAC8D600F851FE /* MXKTableViewCellWithSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F0316E341B7DEA5300F03620 /* MXKTableViewCellWithSearchBar.m */; };
+		AEA3A8BF24DAC8D600F851FE /* MXKTableViewCellWithTextFieldAndButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF98D91B0B7FDC00EAE373 /* MXKTableViewCellWithTextFieldAndButton.m */; };
+		AEA3A8C024DAC8D600F851FE /* MXKTableViewCellWithTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF98DB1B0B7FDC00EAE373 /* MXKTableViewCellWithTextView.m */; };
+		AEA3A8C124DAC8DB00F851FE /* MXKPushRuleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01449A61B53FA7600EA7D73 /* MXKPushRuleTableViewCell.m */; };
+		AEA3A8C224DAC8DB00F851FE /* MXKPushRuleCreationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01449A91B53FA7600EA7D73 /* MXKPushRuleCreationTableViewCell.m */; };
+		AEA3A8C324DAC8DF00F851FE /* MXKRoomBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328AC4851AA75E000044A6FB /* MXKRoomBubbleTableViewCell.m */; };
+		AEA3A8C424DAC8DF00F851FE /* MXKRoomEmptyBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F06CDD5D1EF017CB00870B75 /* MXKRoomEmptyBubbleTableViewCell.m */; };
+		AEA3A8C524DAC8DF00F851FE /* MXKRoomIncomingBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328AC4881AA75EDD0044A6FB /* MXKRoomIncomingBubbleTableViewCell.m */; };
+		AEA3A8C624DAC8DF00F851FE /* MXKRoomIncomingTextMsgBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F00FA8541C0864FA00E25826 /* MXKRoomIncomingTextMsgBubbleCell.m */; };
+		AEA3A8C724DAC8DF00F851FE /* MXKRoomIncomingTextMsgWithoutSenderInfoBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F00FA85B1C0867F900E25826 /* MXKRoomIncomingTextMsgWithoutSenderInfoBubbleCell.m */; };
+		AEA3A8C824DAC8DF00F851FE /* MXKRoomIncomingAttachmentBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F00FA8571C0867F900E25826 /* MXKRoomIncomingAttachmentBubbleCell.m */; };
+		AEA3A8C924DAC8DF00F851FE /* MXKRoomIncomingAttachmentWithoutSenderInfoBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F00FA8591C0867F900E25826 /* MXKRoomIncomingAttachmentWithoutSenderInfoBubbleCell.m */; };
+		AEA3A8CA24DAC8DF00F851FE /* MXKRoomOutgoingBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328AC48B1AA760520044A6FB /* MXKRoomOutgoingBubbleTableViewCell.m */; };
+		AEA3A8CB24DAC8DF00F851FE /* MXKRoomOutgoingTextMsgBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F00FA86E1C08A51B00E25826 /* MXKRoomOutgoingTextMsgBubbleCell.m */; };
+		AEA3A8CC24DAC8DF00F851FE /* MXKRoomOutgoingTextMsgWithoutSenderInfoBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F00FA8711C08A51B00E25826 /* MXKRoomOutgoingTextMsgWithoutSenderInfoBubbleCell.m */; };
+		AEA3A8CD24DAC8DF00F851FE /* MXKRoomOutgoingAttachmentBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F00FA8681C08A51B00E25826 /* MXKRoomOutgoingAttachmentBubbleCell.m */; };
+		AEA3A8CE24DAC8DF00F851FE /* MXKRoomOutgoingAttachmentWithoutSenderInfoBubbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F00FA86B1C08A51B00E25826 /* MXKRoomOutgoingAttachmentWithoutSenderInfoBubbleCell.m */; };
+		AEA3A8CF24DAC8DF00F851FE /* MXKRoomIOSOutgoingBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 321313C71AEFC2D500A9B035 /* MXKRoomIOSOutgoingBubbleTableViewCell.m */; };
+		AEA3A8D024DAC8DF00F851FE /* MXKRoomIOSBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 329CF77A1AA9FDE000A4753F /* MXKRoomIOSBubbleTableViewCell.m */; };
+		AEA3A8D124DAC8E400F851FE /* MXKRoomInputToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0036EED1AB98DC40008E432 /* MXKRoomInputToolbarView.m */; };
+		AEA3A8D224DAC8E400F851FE /* MXKRoomInputToolbarViewWithHPGrowingText.m in Sources */ = {isa = PBXBuildFile; fileRef = F00BB4491AB840B300AE388E /* MXKRoomInputToolbarViewWithHPGrowingText.m */; };
+		AEA3A8D324DAC8E400F851FE /* MXKRoomInputToolbarViewWithSimpleTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F094D15C1ACC8B9300994F67 /* MXKRoomInputToolbarViewWithSimpleTextView.m */; };
+		AEA3A8D424DAC8E700F851FE /* MXKInterleavedRecentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AD3CC51B289441002E0899 /* MXKInterleavedRecentTableViewCell.m */; };
+		AEA3A8D524DAC8E700F851FE /* MXKPublicRoomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0868E101B1CAD58004CBE80 /* MXKPublicRoomTableViewCell.m */; };
+		AEA3A8D624DAC8E700F851FE /* MXKRecentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CEE22F1AB1EE0900F7C74D /* MXKRecentTableViewCell.m */; };
+		AEA3A8D724DAC8EC00F851FE /* MXKRoomMemberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F05FB17F1AD6643900DC0647 /* MXKRoomMemberTableViewCell.m */; };
+		AEA3A8D824DAC8EC00F851FE /* MXKRoomTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B0ECC31B14B16C005EB20D /* MXKRoomTitleView.m */; };
+		AEA3A8D924DAC8EC00F851FE /* MXKRoomTitleViewWithTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B0ECD41B15C745005EB20D /* MXKRoomTitleViewWithTopic.m */; };
+		AEA3A8DA24DAC8EE00F851FE /* MXKSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3235CD7F1C33C6640084EA40 /* MXKSearchTableViewCell.m */; };
+		AEA3A8DB24DAC8F100F851FE /* MXKEventDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F07D74AB1AC5A29800D83B98 /* MXKEventDetailsView.m */; };
+		AEA3A8DC24DAC8F100F851FE /* MXKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F09E288B1AC1FEDA00C51E44 /* MXKImageView.m */; };
+		AEA3A8DD24DAC8F100F851FE /* MXKPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F09E288D1AC1FEDA00C51E44 /* MXKPieChartView.m */; };
+		AEA3A8DE24DAC8F100F851FE /* MXKPieChartHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F08D351E1FD0134900A0C2FB /* MXKPieChartHUD.m */; };
+		AEA3A8DF24DAC8F100F851FE /* MXKReceiptSendersContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F093BCAC1C21BDD80010D05F /* MXKReceiptSendersContainer.m */; };
+		AEA3A8E024DAC8F100F851FE /* MXKRoomActivitiesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EBE6621C04608100E7D953 /* MXKRoomActivitiesView.m */; };
+		AEA3A8E124DAC8F100F851FE /* MXKRoomCreationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0868E0B1B18FC01004CBE80 /* MXKRoomCreationView.m */; };
+		AEA3A8E224DAC8F100F851FE /* MXKMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13652F7221E9E7A00313B09 /* MXKMessageTextView.m */; };
+		AEA3A8E324DAC8F100F851FE /* MatrixKitVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 328E410224CB135100DC4490 /* MatrixKitVersion.m */; };
 		B11D3C7E20C032BD00938BCB /* MXKBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */; };
 		B125D0FD22D5D2C200570CA4 /* MXKUTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */; };
 		B125D10522D62A4900570CA4 /* MXKUTITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D10322D62A4800570CA4 /* MXKUTITests.swift */; };
@@ -1819,6 +1961,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA3A85924DAC85600F851FE /* MatrixKitAssets.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2128,6 +2271,147 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA3A8C324DAC8DF00F851FE /* MXKRoomBubbleTableViewCell.m in Sources */,
+				AEA3A8C424DAC8DF00F851FE /* MXKRoomEmptyBubbleTableViewCell.m in Sources */,
+				AEA3A88824DAC87400F851FE /* MXKRoomDataSourceManager.m in Sources */,
+				AEA3A8E124DAC8F100F851FE /* MXKRoomCreationView.m in Sources */,
+				AEA3A89724DAC88400F851FE /* MXKDataSource.m in Sources */,
+				AEA3A89C24DAC89800F851FE /* MXKEventFormatter.m in Sources */,
+				AEA3A88E24DAC87700F851FE /* MXKRecentCellData.m in Sources */,
+				AEA3A8BE24DAC8D600F851FE /* MXKTableViewCellWithSearchBar.m in Sources */,
+				AEA3A8D624DAC8E700F851FE /* MXKRecentTableViewCell.m in Sources */,
+				AEA3A89024DAC87B00F851FE /* MXKRoomMemberListDataSource.m in Sources */,
+				AEA3A86324DAC86600F851FE /* MXKGroupListViewController.m in Sources */,
+				AEA3A8AD24DAC8CF00F851FE /* MXKAuthInputsPasswordBasedView.m in Sources */,
+				AEA3A8AC24DAC8CF00F851FE /* MXKAuthInputsEmailCodeBasedView.m in Sources */,
+				AEA3A88C24DAC87700F851FE /* MXKRecentsDataSource.m in Sources */,
+				AEA3A8CF24DAC8DF00F851FE /* MXKRoomIOSOutgoingBubbleTableViewCell.m in Sources */,
+				AEA3A87A24DAC86D00F851FE /* MXKContactManager.m in Sources */,
+				AEA3A8CD24DAC8DF00F851FE /* MXKRoomOutgoingAttachmentBubbleCell.m in Sources */,
+				AEA3A85F24DAC86100F851FE /* MXAggregatedReactions+MatrixKit.m in Sources */,
+				AEA3A88B24DAC87700F851FE /* MXKInterleavedRecentsDataSource.m in Sources */,
+				AEA3A8C924DAC8DF00F851FE /* MXKRoomIncomingAttachmentWithoutSenderInfoBubbleCell.m in Sources */,
+				AEA3A86824DAC86600F851FE /* MXKAccountDetailsViewController.m in Sources */,
+				AEA3A85724DAC83E00F851FE /* MXKAttachmentAnimator.m in Sources */,
+				AEA3A8AF24DAC8CF00F851FE /* MXKAuthenticationFallbackWebView.m in Sources */,
+				AEA3A8A624DAC8CA00F851FE /* MXKEncryptionKeysExportView.m in Sources */,
+				AEA3A89424DAC88100F851FE /* MXKDirectoryServersDataSource.m in Sources */,
+				AEA3A8D524DAC8E700F851FE /* MXKPublicRoomTableViewCell.m in Sources */,
+				AEA3A87924DAC86D00F851FE /* MXKContactField.m in Sources */,
+				AEA3A8B524DAC8D500F851FE /* MXKTableViewCellWithButtons.m in Sources */,
+				AEA3A8CE24DAC8DF00F851FE /* MXKRoomOutgoingAttachmentWithoutSenderInfoBubbleCell.m in Sources */,
+				AEA3A87624DAC86A00F851FE /* MXKGroupCellData.m in Sources */,
+				AEA3A89624DAC88400F851FE /* MXKAppSettings.m in Sources */,
+				AEA3A88624DAC87400F851FE /* MXKRoomCreationInputs.m in Sources */,
+				AEA3A8CC24DAC8DF00F851FE /* MXKRoomOutgoingTextMsgWithoutSenderInfoBubbleCell.m in Sources */,
+				AEA3A86E24DAC86600F851FE /* MXKAttachmentsViewController.m in Sources */,
+				AEA3A87C24DAC86D00F851FE /* MXKPhoneNumber.m in Sources */,
+				AEA3A88724DAC87400F851FE /* MXKRoomDataSource.m in Sources */,
+				AEA3A87124DAC86600F851FE /* MXKRoomSettingsViewController.m in Sources */,
+				AEA3A8DE24DAC8F100F851FE /* MXKPieChartHUD.m in Sources */,
+				AEA3A86F24DAC86600F851FE /* MXKRoomMemberListViewController.m in Sources */,
+				AEA3A86524DAC86600F851FE /* MXKCountryPickerViewController.m in Sources */,
+				AEA3A8B924DAC8D500F851FE /* MXKTableViewCellWithLabelAndSubLabel.m in Sources */,
+				AEA3A87324DAC86600F851FE /* MXKTableViewController.m in Sources */,
+				AEA3A86A24DAC86600F851FE /* MXKCallViewController.m in Sources */,
+				AEA3A8A924DAC8CA00F851FE /* MXKCollectionViewCell.m in Sources */,
+				AEA3A8BF24DAC8D600F851FE /* MXKTableViewCellWithTextFieldAndButton.m in Sources */,
+				AEA3A86424DAC86600F851FE /* MXKLanguagePickerViewController.m in Sources */,
+				AEA3A88A24DAC87400F851FE /* MXKSlashCommands.m in Sources */,
+				AEA3A89924DAC89000F851FE /* MXKErrorAlertPresentation.m in Sources */,
+				AEA3A89324DAC88100F851FE /* MXKDirectoryServerCellData.m in Sources */,
+				AEA3A85D24DAC86100F851FE /* NSBundle+MatrixKit.m in Sources */,
+				AEA3A8A324DAC8CA00F851FE /* MXKGroupTableViewCell.m in Sources */,
+				AEA3A8A724DAC8CA00F851FE /* MXKEncryptionInfoView.m in Sources */,
+				AEA3A8BA24DAC8D500F851FE /* MXKTableViewCellWithLabelAndSwitch.m in Sources */,
+				AEA3A86D24DAC86600F851FE /* MXKRecentListViewController.m in Sources */,
+				AEA3A8B124DAC8D300F851FE /* MXKContactTableCell.m in Sources */,
+				AEA3A87D24DAC86D00F851FE /* MXKSectionedContacts.m in Sources */,
+				AEA3A8A824DAC8CA00F851FE /* MXKDeviceView.m in Sources */,
+				AEA3A8A424DAC8CA00F851FE /* MXKReadReceiptTableViewCell.m in Sources */,
+				AEA3A87B24DAC86D00F851FE /* MXKEmail.m in Sources */,
+				AEA3A87424DAC86600F851FE /* MXKViewController.m in Sources */,
+				AEA3A87E24DAC87000F851FE /* MXKAccount.m in Sources */,
+				AEA3A8C724DAC8DF00F851FE /* MXKRoomIncomingTextMsgWithoutSenderInfoBubbleCell.m in Sources */,
+				AEA3A8B824DAC8D500F851FE /* MXKTableViewCellWithLabelAndSlider.m in Sources */,
+				AEA3A8DC24DAC8F100F851FE /* MXKImageView.m in Sources */,
+				AEA3A8C524DAC8DF00F851FE /* MXKRoomIncomingBubbleTableViewCell.m in Sources */,
+				AEA3A8A124DAC8BF00F851FE /* MXKTableViewHeaderFooterView.m in Sources */,
+				AEA3A88924DAC87400F851FE /* MXKSendReplyEventStringLocalizations.m in Sources */,
+				AEA3A8BB24DAC8D500F851FE /* MXKTableViewCellWithLabelAndTextField.m in Sources */,
+				AEA3A8B024DAC8CF00F851FE /* MXKAuthenticationRecaptchaWebView.m in Sources */,
+				AEA3A88024DAC87400F851FE /* MXKAttachment.m in Sources */,
+				AEA3A8CB24DAC8DF00F851FE /* MXKRoomOutgoingTextMsgBubbleCell.m in Sources */,
+				AEA3A8AE24DAC8CF00F851FE /* MXKAuthInputsView.m in Sources */,
+				AEA3A8D324DAC8E400F851FE /* MXKRoomInputToolbarViewWithSimpleTextView.m in Sources */,
+				AEA3A8D724DAC8EC00F851FE /* MXKRoomMemberTableViewCell.m in Sources */,
+				AEA3A86224DAC86100F851FE /* UITextView+MatrixKit.m in Sources */,
+				AEA3A86624DAC86600F851FE /* MXKContactDetailsViewController.m in Sources */,
+				AEA3A8C624DAC8DF00F851FE /* MXKRoomIncomingTextMsgBubbleCell.m in Sources */,
+				AEA3A87824DAC86D00F851FE /* MXKContact.m in Sources */,
+				AEA3A8C024DAC8D600F851FE /* MXKTableViewCellWithTextView.m in Sources */,
+				AEA3A89D24DAC89A00F851FE /* MXKRoomNameStringLocalizations.m in Sources */,
+				AEA3A85824DAC83E00F851FE /* MXKAttachmentInteractionController.m in Sources */,
+				AEA3A85E24DAC86100F851FE /* NSBundle+MXKLanguage.m in Sources */,
+				AEA3A8D024DAC8DF00F851FE /* MXKRoomIOSBubbleTableViewCell.m in Sources */,
+				AEA3A8AA24DAC8CA00F851FE /* MXKMediaCollectionViewCell.m in Sources */,
+				AEA3A8BD24DAC8D600F851FE /* MXKTableViewCellWithPicker.m in Sources */,
+				AEA3A85C24DAC86100F851FE /* UIViewController+MatrixKit.m in Sources */,
+				AEA3A89124DAC87E00F851FE /* MXKSearchCellData.m in Sources */,
+				AEA3A8C124DAC8DB00F851FE /* MXKPushRuleTableViewCell.m in Sources */,
+				AEA3A8D824DAC8EC00F851FE /* MXKRoomTitleView.m in Sources */,
+				AEA3A8C224DAC8DB00F851FE /* MXKPushRuleCreationTableViewCell.m in Sources */,
+				AEA3A86C24DAC86600F851FE /* MXKNotificationSettingsViewController.m in Sources */,
+				AEA3A89E24DAC8A200F851FE /* MXKTools.m in Sources */,
+				AEA3A8E324DAC8F100F851FE /* MatrixKitVersion.m in Sources */,
+				AEA3A88524DAC87400F851FE /* MXKRoomBubbleCellDataWithIncomingAppendingMode.m in Sources */,
+				AEA3A8BC24DAC8D500F851FE /* MXKTableViewCellWithLabelTextFieldAndButton.m in Sources */,
+				AEA3A87724DAC86A00F851FE /* MXKSessionGroupsDataSource.m in Sources */,
+				AEA3A84C24DAC75400F851FE /* MXKConstants.m in Sources */,
+				AEA3A88F24DAC87B00F851FE /* MXKRoomMemberCellData.m in Sources */,
+				AEA3A87024DAC86600F851FE /* MXKRoomViewController.m in Sources */,
+				AEA3A87524DAC86600F851FE /* MXKWebViewViewController.m in Sources */,
+				AEA3A89224DAC87E00F851FE /* MXKSearchDataSource.m in Sources */,
+				AEA3A8B424DAC8D500F851FE /* MXKTableViewCellWithButton.m in Sources */,
+				AEA3A86024DAC86100F851FE /* MXEvent+MatrixKit.m in Sources */,
+				AEA3A88324DAC87400F851FE /* MXKRoomBubbleComponent.m in Sources */,
+				AEA3A87F24DAC87000F851FE /* MXKAccountManager.m in Sources */,
+				AEA3A8AB24DAC8CA00F851FE /* MXKAccountTableViewCell.m in Sources */,
+				AEA3A88D24DAC87700F851FE /* MXKSessionRecentsDataSource.m in Sources */,
+				AEA3A89824DAC88400F851FE /* MXKCellData.m in Sources */,
+				AEA3A8DA24DAC8EE00F851FE /* MXKSearchTableViewCell.m in Sources */,
+				AEA3A89A24DAC89000F851FE /* MXKErrorViewModel.m in Sources */,
+				AEA3A8B624DAC8D500F851FE /* MXKTableViewCellWithLabelAndButton.m in Sources */,
+				AEA3A8CA24DAC8DF00F851FE /* MXKRoomOutgoingBubbleTableViewCell.m in Sources */,
+				AEA3A8B324DAC8D500F851FE /* MXKTableViewCell.m in Sources */,
+				AEA3A89524DAC88400F851FE /* MXK3PID.m in Sources */,
+				AEA3A8C824DAC8DF00F851FE /* MXKRoomIncomingAttachmentBubbleCell.m in Sources */,
+				AEA3A89F24DAC8A200F851FE /* MXKSoundPlayer.m in Sources */,
+				AEA3A8D924DAC8EC00F851FE /* MXKRoomTitleViewWithTopic.m in Sources */,
+				AEA3A8D224DAC8E400F851FE /* MXKRoomInputToolbarViewWithHPGrowingText.m in Sources */,
+				AEA3A86924DAC86600F851FE /* MXKAuthenticationViewController.m in Sources */,
+				AEA3A88424DAC87400F851FE /* MXKRoomBubbleCellDataWithAppendingMode.m in Sources */,
+				AEA3A8A224DAC8BF00F851FE /* MXKTableViewHeaderFooterWithLabel.m in Sources */,
+				AEA3A86124DAC86100F851FE /* MXRoom+Sync.m in Sources */,
+				AEA3A8B224DAC8D500F851FE /* MXKTableViewCellWithLabelAndMXKImageView.m in Sources */,
+				AEA3A8DB24DAC8F100F851FE /* MXKEventDetailsView.m in Sources */,
+				AEA3A8D424DAC8E700F851FE /* MXKInterleavedRecentTableViewCell.m in Sources */,
+				AEA3A8E224DAC8F100F851FE /* MXKMessageTextView.m in Sources */,
+				AEA3A88224DAC87400F851FE /* MXKRoomBubbleCellData.m in Sources */,
+				AEA3A8D124DAC8E400F851FE /* MXKRoomInputToolbarView.m in Sources */,
+				AEA3A88124DAC87400F851FE /* MXKQueuedEvent.m in Sources */,
+				AEA3A85B24DAC86100F851FE /* UIAlertController+MatrixKit.m in Sources */,
+				AEA3A8B724DAC8D500F851FE /* MXKTableViewCellWithLabelAndImageView.m in Sources */,
+				AEA3A8DD24DAC8F100F851FE /* MXKPieChartView.m in Sources */,
+				AEA3A8E024DAC8F100F851FE /* MXKRoomActivitiesView.m in Sources */,
+				AEA3A85A24DAC86100F851FE /* UIScrollView+MatrixKit.m in Sources */,
+				AEA3A8A024DAC8A800F851FE /* MXKBarButtonItem.m in Sources */,
+				AEA3A87224DAC86600F851FE /* MXKSearchViewController.m in Sources */,
+				AEA3A8DF24DAC8F100F851FE /* MXKReceiptSendersContainer.m in Sources */,
+				AEA3A89B24DAC89000F851FE /* MXKErrorPresentableBuilder.m in Sources */,
+				AEA3A86B24DAC86600F851FE /* MXKContactListViewController.m in Sources */,
+				AEA3A86724DAC86600F851FE /* MXKRoomMemberDetailsViewController.m in Sources */,
+				AEA3A8A524DAC8CA00F851FE /* MXKEncryptionKeysImportView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2386,7 +2670,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7J4U792NQT;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2428,7 +2712,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 7J4U792NQT;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
