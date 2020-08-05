@@ -369,6 +369,69 @@
 		AEA3A9DB24DB4B3D00F851FE /* MXKPublicRoomTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F0868E0F1B1CAD58004CBE80 /* MXKPublicRoomTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A9DC24DB4C8D00F851FE /* MXKAttachmentAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = CE14CA621E80122600E329A3 /* MXKAttachmentAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A9DD24DB4C9100F851FE /* MXKAttachmentInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE14CA641E80122600E329A3 /* MXKAttachmentInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9DE24DB4FC000F851FE /* MXKGroupListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05927B11FDDA09D009F2A68 /* MXKGroupListViewController.xib */; };
+		AEA3A9DF24DB4FC000F851FE /* MXKLanguagePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32185B2C1F20AFEB00752141 /* MXKLanguagePickerViewController.xib */; };
+		AEA3A9E024DB4FC000F851FE /* MXKCountryPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0FDF2661E53586A00D23C47 /* MXKCountryPickerViewController.xib */; };
+		AEA3A9E124DB4FC000F851FE /* MXKContactDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F043563D1B2F124F0096FA02 /* MXKContactDetailsViewController.xib */; };
+		AEA3A9E224DB4FC000F851FE /* MXKRoomMemberDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F043563F1B2F63090096FA02 /* MXKRoomMemberDetailsViewController.xib */; };
+		AEA3A9E324DB4FC000F851FE /* MXKAccountDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF98C91B0B63B900EAE373 /* MXKAccountDetailsViewController.xib */; };
+		AEA3A9E424DB4FC000F851FE /* MXKAuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06E76801AF0FEB100980E5A /* MXKAuthenticationViewController.xib */; };
+		AEA3A9E524DB4FC000F851FE /* MXKCallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F01C7DF91AFB6BF900FC2F59 /* MXKCallViewController.xib */; };
+		AEA3A9E624DB4FC000F851FE /* MXKContactListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F095E4FE1B258750009606CE /* MXKContactListViewController.xib */; };
+		AEA3A9E724DB4FC000F851FE /* MXKRecentListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF99031B0F1A0B00EAE373 /* MXKRecentListViewController.xib */; };
+		AEA3A9E824DB4FC000F851FE /* MXKAttachmentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F080B42A1BD6990300DE095E /* MXKAttachmentsViewController.xib */; };
+		AEA3A9E924DB4FC000F851FE /* MXKRoomMemberListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07267D81BB2AA3D00ADC622 /* MXKRoomMemberListViewController.xib */; };
+		AEA3A9EA24DB4FC000F851FE /* MXKRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03A00231AAA19F30070A7D8 /* MXKRoomViewController.xib */; };
+		AEA3A9EB24DB4FC000F851FE /* MXKRoomSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71352D541C0ED240001D50B0 /* MXKRoomSettingsViewController.xib */; };
+		AEA3A9EC24DB4FC000F851FE /* MXKSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3235CD7A1C32DEBF0084EA40 /* MXKSearchViewController.xib */; };
+		AEA3A9ED24DB4FCF00F851FE /* MXKTableViewHeaderFooterWithLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B14DDA1FF65C7C00F11630 /* MXKTableViewHeaderFooterWithLabel.xib */; };
+		AEA3A9EE24DB4FCF00F851FE /* MXKGroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05927AA1FD92E35009F2A68 /* MXKGroupTableViewCell.xib */; };
+		AEA3A9EF24DB4FCF00F851FE /* MXKReadReceiptTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F01439441F067929006E5D8C /* MXKReadReceiptTableViewCell.xib */; };
+		AEA3A9F024DB4FCF00F851FE /* MXKEncryptionInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F09617C21DE881D800093E9D /* MXKEncryptionInfoView.xib */; };
+		AEA3A9F124DB4FCF00F851FE /* MXKDeviceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F09617BC1DE8478C00093E9D /* MXKDeviceView.xib */; };
+		AEA3A9F224DB4FCF00F851FE /* MXKMediaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F080B4301BD6991A00DE095E /* MXKMediaCollectionViewCell.xib */; };
+		AEA3A9F324DB4FCF00F851FE /* MXKAccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF98F71B0C6EA000EAE373 /* MXKAccountTableViewCell.xib */; };
+		AEA3A9F424DB4FDD00F851FE /* MXKAuthInputsEmailCodeBasedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06E768D1AF0FED000980E5A /* MXKAuthInputsEmailCodeBasedView.xib */; };
+		AEA3A9F524DB4FDD00F851FE /* MXKAuthInputsPasswordBasedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06E76901AF0FED000980E5A /* MXKAuthInputsPasswordBasedView.xib */; };
+		AEA3A9F624DB4FDD00F851FE /* MXKContactTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F095E5171B259C71009606CE /* MXKContactTableCell.xib */; };
+		AEA3A9F724DB4FDD00F851FE /* MXKTableViewCellWithLabelAndMXKImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71352D681C1588BE001D50B0 /* MXKTableViewCellWithLabelAndMXKImageView.xib */; };
+		AEA3A9F824DB4FDD00F851FE /* MXKTableViewCellWithButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF98FC1B0CDF6100EAE373 /* MXKTableViewCellWithButton.xib */; };
+		AEA3A9F924DB4FDD00F851FE /* MXKTableViewCellWithLabelAndButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04356351B2EF9D80096FA02 /* MXKTableViewCellWithLabelAndButton.xib */; };
+		AEA3A9FA24DB4FDD00F851FE /* MXKTableViewCellWithLabelAndImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0316E421B7E469C00F03620 /* MXKTableViewCellWithLabelAndImageView.xib */; };
+		AEA3A9FB24DB4FDD00F851FE /* MXKTableViewCellWithLabelAndSlider.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF98E41B0B842700EAE373 /* MXKTableViewCellWithLabelAndSlider.xib */; };
+		AEA3A9FC24DB4FDD00F851FE /* MXKTableViewCellWithLabelAndSubLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF98E61B0B869800EAE373 /* MXKTableViewCellWithLabelAndSubLabel.xib */; };
+		AEA3A9FD24DB4FDD00F851FE /* MXKTableViewCellWithLabelAndSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF98E81B0B86ED00EAE373 /* MXKTableViewCellWithLabelAndSwitch.xib */; };
+		AEA3A9FE24DB4FDD00F851FE /* MXKTableViewCellWithLabelAndTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF98EA1B0B874A00EAE373 /* MXKTableViewCellWithLabelAndTextField.xib */; };
+		AEA3A9FF24DB4FDD00F851FE /* MXKTableViewCellWithLabelTextFieldAndButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF98EC1B0B87D200EAE373 /* MXKTableViewCellWithLabelTextFieldAndButton.xib */; };
+		AEA3AA0024DB4FDD00F851FE /* MXKTableViewCellWithPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF98EE1B0B882E00EAE373 /* MXKTableViewCellWithPicker.xib */; };
+		AEA3AA0124DB4FDD00F851FE /* MXKTableViewCellWithSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0316E351B7DEA5300F03620 /* MXKTableViewCellWithSearchBar.xib */; };
+		AEA3AA0224DB4FDD00F851FE /* MXKTableViewCellWithTextFieldAndButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF98F01B0B886000EAE373 /* MXKTableViewCellWithTextFieldAndButton.xib */; };
+		AEA3AA0324DB4FDD00F851FE /* MXKTableViewCellWithTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0CF98F21B0B889C00EAE373 /* MXKTableViewCellWithTextView.xib */; };
+		AEA3AA0424DB4FE400F851FE /* MXKPushRuleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F01449A71B53FA7600EA7D73 /* MXKPushRuleTableViewCell.xib */; };
+		AEA3AA0524DB4FE400F851FE /* MXKPushRuleCreationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F01449AA1B53FA7600EA7D73 /* MXKPushRuleCreationTableViewCell.xib */; };
+		AEA3AA0624DB4FE900F851FE /* MXKRoomEmptyBubbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06CDD5E1EF017CB00870B75 /* MXKRoomEmptyBubbleTableViewCell.xib */; };
+		AEA3AA0724DB4FE900F851FE /* MXKRoomIncomingTextMsgBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00FA8611C089D2100E25826 /* MXKRoomIncomingTextMsgBubbleCell.xib */; };
+		AEA3AA0824DB4FE900F851FE /* MXKRoomIncomingTextMsgWithoutSenderInfoBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00FA8621C089D2100E25826 /* MXKRoomIncomingTextMsgWithoutSenderInfoBubbleCell.xib */; };
+		AEA3AA0924DB4FE900F851FE /* MXKRoomIncomingAttachmentBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00FA85F1C089D2100E25826 /* MXKRoomIncomingAttachmentBubbleCell.xib */; };
+		AEA3AA0A24DB4FE900F851FE /* MXKRoomIncomingAttachmentWithoutSenderInfoBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00FA8601C089D2100E25826 /* MXKRoomIncomingAttachmentWithoutSenderInfoBubbleCell.xib */; };
+		AEA3AA0B24DB4FE900F851FE /* MXKRoomOutgoingTextMsgBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00FA86F1C08A51B00E25826 /* MXKRoomOutgoingTextMsgBubbleCell.xib */; };
+		AEA3AA0C24DB4FE900F851FE /* MXKRoomOutgoingTextMsgWithoutSenderInfoBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00FA8721C08A51B00E25826 /* MXKRoomOutgoingTextMsgWithoutSenderInfoBubbleCell.xib */; };
+		AEA3AA0D24DB4FE900F851FE /* MXKRoomOutgoingAttachmentBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00FA8691C08A51B00E25826 /* MXKRoomOutgoingAttachmentBubbleCell.xib */; };
+		AEA3AA0E24DB4FE900F851FE /* MXKRoomOutgoingAttachmentWithoutSenderInfoBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00FA86C1C08A51B00E25826 /* MXKRoomOutgoingAttachmentWithoutSenderInfoBubbleCell.xib */; };
+		AEA3AA0F24DB4FE900F851FE /* MXKRoomIOSOutgoingBubbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321313C81AEFC2D500A9B035 /* MXKRoomIOSOutgoingBubbleTableViewCell.xib */; };
+		AEA3AA1024DB4FEC00F851FE /* MXKRoomInputToolbarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0036EEE1AB98DC40008E432 /* MXKRoomInputToolbarView.xib */; };
+		AEA3AA1124DB4FEC00F851FE /* MXKRoomInputToolbarViewWithHPGrowingText.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B0ECDC1B16219C005EB20D /* MXKRoomInputToolbarViewWithHPGrowingText.xib */; };
+		AEA3AA1224DB4FEC00F851FE /* MXKRoomInputToolbarViewWithSimpleTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F094D15D1ACC8B9300994F67 /* MXKRoomInputToolbarViewWithSimpleTextView.xib */; };
+		AEA3AA1324DB4FF000F851FE /* MXKInterleavedRecentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0AD3CC61B289441002E0899 /* MXKInterleavedRecentTableViewCell.xib */; };
+		AEA3AA1424DB4FF000F851FE /* MXKPublicRoomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0868E111B1CAD58004CBE80 /* MXKPublicRoomTableViewCell.xib */; };
+		AEA3AA1524DB4FF000F851FE /* MXKRecentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 327DCDC61AC1774000397E5E /* MXKRecentTableViewCell.xib */; };
+		AEA3AA1624DB4FF900F851FE /* MXKRoomMemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05FB1801AD6643900DC0647 /* MXKRoomMemberTableViewCell.xib */; };
+		AEA3AA1724DB4FF900F851FE /* MXKRoomTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B0ECC81B14B6BB005EB20D /* MXKRoomTitleView.xib */; };
+		AEA3AA1824DB4FF900F851FE /* MXKRoomTitleViewWithTopic.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B0ECD51B15C745005EB20D /* MXKRoomTitleViewWithTopic.xib */; };
+		AEA3AA1924DB4FF900F851FE /* MXKSearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3235CD811C33D3EA0084EA40 /* MXKSearchTableViewCell.xib */; };
+		AEA3AA1A24DB4FF900F851FE /* MXKEventDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07D74AD1AC5A36B00D83B98 /* MXKEventDetailsView.xib */; };
+		AEA3AA1B24DB4FF900F851FE /* MXKPieChartHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08D351F1FD0134900A0C2FB /* MXKPieChartHUD.xib */; };
+		AEA3AA1C24DB4FF900F851FE /* MXKRoomCreationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0868E0C1B18FC01004CBE80 /* MXKRoomCreationView.xib */; };
 		B11D3C7E20C032BD00938BCB /* MXKBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */; };
 		B125D0FD22D5D2C200570CA4 /* MXKUTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */; };
 		B125D10522D62A4900570CA4 /* MXKUTITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D10322D62A4800570CA4 /* MXKUTITests.swift */; };
@@ -2277,7 +2340,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA3A9F624DB4FDD00F851FE /* MXKContactTableCell.xib in Resources */,
+				AEA3A9EE24DB4FCF00F851FE /* MXKGroupTableViewCell.xib in Resources */,
+				AEA3A9E824DB4FC000F851FE /* MXKAttachmentsViewController.xib in Resources */,
+				AEA3A9EC24DB4FC000F851FE /* MXKSearchViewController.xib in Resources */,
+				AEA3A9FD24DB4FDD00F851FE /* MXKTableViewCellWithLabelAndSwitch.xib in Resources */,
+				AEA3A9E024DB4FC000F851FE /* MXKCountryPickerViewController.xib in Resources */,
+				AEA3AA0124DB4FDD00F851FE /* MXKTableViewCellWithSearchBar.xib in Resources */,
+				AEA3A9FC24DB4FDD00F851FE /* MXKTableViewCellWithLabelAndSubLabel.xib in Resources */,
+				AEA3AA0824DB4FE900F851FE /* MXKRoomIncomingTextMsgWithoutSenderInfoBubbleCell.xib in Resources */,
+				AEA3AA0724DB4FE900F851FE /* MXKRoomIncomingTextMsgBubbleCell.xib in Resources */,
+				AEA3AA0424DB4FE400F851FE /* MXKPushRuleTableViewCell.xib in Resources */,
+				AEA3AA1624DB4FF900F851FE /* MXKRoomMemberTableViewCell.xib in Resources */,
+				AEA3A9FE24DB4FDD00F851FE /* MXKTableViewCellWithLabelAndTextField.xib in Resources */,
+				AEA3AA1124DB4FEC00F851FE /* MXKRoomInputToolbarViewWithHPGrowingText.xib in Resources */,
+				AEA3AA0F24DB4FE900F851FE /* MXKRoomIOSOutgoingBubbleTableViewCell.xib in Resources */,
+				AEA3AA0024DB4FDD00F851FE /* MXKTableViewCellWithPicker.xib in Resources */,
+				AEA3A9F024DB4FCF00F851FE /* MXKEncryptionInfoView.xib in Resources */,
+				AEA3AA0A24DB4FE900F851FE /* MXKRoomIncomingAttachmentWithoutSenderInfoBubbleCell.xib in Resources */,
+				AEA3AA1324DB4FF000F851FE /* MXKInterleavedRecentTableViewCell.xib in Resources */,
+				AEA3A9EA24DB4FC000F851FE /* MXKRoomViewController.xib in Resources */,
+				AEA3A9E324DB4FC000F851FE /* MXKAccountDetailsViewController.xib in Resources */,
+				AEA3A9EB24DB4FC000F851FE /* MXKRoomSettingsViewController.xib in Resources */,
+				AEA3AA0524DB4FE400F851FE /* MXKPushRuleCreationTableViewCell.xib in Resources */,
+				AEA3A9ED24DB4FCF00F851FE /* MXKTableViewHeaderFooterWithLabel.xib in Resources */,
+				AEA3A9F324DB4FCF00F851FE /* MXKAccountTableViewCell.xib in Resources */,
 				AEA3A85924DAC85600F851FE /* MatrixKitAssets.bundle in Resources */,
+				AEA3A9F924DB4FDD00F851FE /* MXKTableViewCellWithLabelAndButton.xib in Resources */,
+				AEA3A9E924DB4FC000F851FE /* MXKRoomMemberListViewController.xib in Resources */,
+				AEA3A9EF24DB4FCF00F851FE /* MXKReadReceiptTableViewCell.xib in Resources */,
+				AEA3AA1224DB4FEC00F851FE /* MXKRoomInputToolbarViewWithSimpleTextView.xib in Resources */,
+				AEA3A9F124DB4FCF00F851FE /* MXKDeviceView.xib in Resources */,
+				AEA3AA0624DB4FE900F851FE /* MXKRoomEmptyBubbleTableViewCell.xib in Resources */,
+				AEA3A9F524DB4FDD00F851FE /* MXKAuthInputsPasswordBasedView.xib in Resources */,
+				AEA3A9F424DB4FDD00F851FE /* MXKAuthInputsEmailCodeBasedView.xib in Resources */,
+				AEA3AA0324DB4FDD00F851FE /* MXKTableViewCellWithTextView.xib in Resources */,
+				AEA3AA0D24DB4FE900F851FE /* MXKRoomOutgoingAttachmentBubbleCell.xib in Resources */,
+				AEA3A9FA24DB4FDD00F851FE /* MXKTableViewCellWithLabelAndImageView.xib in Resources */,
+				AEA3AA1C24DB4FF900F851FE /* MXKRoomCreationView.xib in Resources */,
+				AEA3A9F724DB4FDD00F851FE /* MXKTableViewCellWithLabelAndMXKImageView.xib in Resources */,
+				AEA3AA0B24DB4FE900F851FE /* MXKRoomOutgoingTextMsgBubbleCell.xib in Resources */,
+				AEA3AA1824DB4FF900F851FE /* MXKRoomTitleViewWithTopic.xib in Resources */,
+				AEA3A9E424DB4FC000F851FE /* MXKAuthenticationViewController.xib in Resources */,
+				AEA3AA0224DB4FDD00F851FE /* MXKTableViewCellWithTextFieldAndButton.xib in Resources */,
+				AEA3A9DE24DB4FC000F851FE /* MXKGroupListViewController.xib in Resources */,
+				AEA3A9E724DB4FC000F851FE /* MXKRecentListViewController.xib in Resources */,
+				AEA3A9E224DB4FC000F851FE /* MXKRoomMemberDetailsViewController.xib in Resources */,
+				AEA3A9E624DB4FC000F851FE /* MXKContactListViewController.xib in Resources */,
+				AEA3AA1724DB4FF900F851FE /* MXKRoomTitleView.xib in Resources */,
+				AEA3AA0924DB4FE900F851FE /* MXKRoomIncomingAttachmentBubbleCell.xib in Resources */,
+				AEA3AA0C24DB4FE900F851FE /* MXKRoomOutgoingTextMsgWithoutSenderInfoBubbleCell.xib in Resources */,
+				AEA3A9DF24DB4FC000F851FE /* MXKLanguagePickerViewController.xib in Resources */,
+				AEA3A9E524DB4FC000F851FE /* MXKCallViewController.xib in Resources */,
+				AEA3AA1A24DB4FF900F851FE /* MXKEventDetailsView.xib in Resources */,
+				AEA3AA1B24DB4FF900F851FE /* MXKPieChartHUD.xib in Resources */,
+				AEA3AA0E24DB4FE900F851FE /* MXKRoomOutgoingAttachmentWithoutSenderInfoBubbleCell.xib in Resources */,
+				AEA3AA1924DB4FF900F851FE /* MXKSearchTableViewCell.xib in Resources */,
+				AEA3A9FB24DB4FDD00F851FE /* MXKTableViewCellWithLabelAndSlider.xib in Resources */,
+				AEA3AA1024DB4FEC00F851FE /* MXKRoomInputToolbarView.xib in Resources */,
+				AEA3A9FF24DB4FDD00F851FE /* MXKTableViewCellWithLabelTextFieldAndButton.xib in Resources */,
+				AEA3A9F224DB4FCF00F851FE /* MXKMediaCollectionViewCell.xib in Resources */,
+				AEA3A9F824DB4FDD00F851FE /* MXKTableViewCellWithButton.xib in Resources */,
+				AEA3AA1424DB4FF000F851FE /* MXKPublicRoomTableViewCell.xib in Resources */,
+				AEA3A9E124DB4FC000F851FE /* MXKContactDetailsViewController.xib in Resources */,
+				AEA3AA1524DB4FF000F851FE /* MXKRecentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
