@@ -215,13 +215,13 @@
 		AEA3A8E224DAC8F100F851FE /* MXKMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13652F7221E9E7A00313B09 /* MXKMessageTextView.m */; };
 		AEA3A8E324DAC8F100F851FE /* MatrixKitVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 328E410224CB135100DC4490 /* MatrixKitVersion.m */; };
 		AEA3A8E524DADAF800F851FE /* DTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8E424DADAF800F851FE /* DTFoundation.framework */; };
-		AEA3A8FF24DADF7000F851FE /* GrowingTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8FE24DADF7000F851FE /* GrowingTextView.framework */; platformFilter = ios; };
 		AEA3A90624DAF30E00F851FE /* MXKRoomDataSourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3230A3731ACADC1800CC57F5 /* MXKRoomDataSourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A90724DAF31E00F851FE /* MXKRoomDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F07E180B1ABC2EDA00DE3766 /* MXKRoomDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A90824DAF36300F851FE /* MXKDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 328AC48D1AA86E110044A6FB /* MXKDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A90924DAF3C600F851FE /* MXKView.h in Headers */ = {isa = PBXBuildFile; fileRef = F079333C1F38A6A600F04D4C /* MXKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A90A24DAF3CB00F851FE /* MXKView.m in Sources */ = {isa = PBXBuildFile; fileRef = F079333D1F38A6A600F04D4C /* MXKView.m */; };
 		AEA3A90B24DAF81500F851FE /* MXKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F02D21471B7109950002DE01 /* MXKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A91024DB130D00F851FE /* HPGrowingTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A90F24DB130D00F851FE /* HPGrowingTextView.framework */; platformFilter = ios; };
 		B11D3C7E20C032BD00938BCB /* MXKBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */; };
 		B125D0FD22D5D2C200570CA4 /* MXKUTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */; };
 		B125D10522D62A4900570CA4 /* MXKUTITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D10322D62A4800570CA4 /* MXKUTITests.swift */; };
@@ -559,6 +559,7 @@
 		AEA3A81F24DA145B00F851FE /* OLMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OLMKit.framework; path = Carthage/Build/iOS/OLMKit.framework; sourceTree = "<group>"; };
 		AEA3A8E424DADAF800F851FE /* DTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DTFoundation.framework; path = Carthage/Build/iOS/DTFoundation.framework; sourceTree = "<group>"; };
 		AEA3A8FE24DADF7000F851FE /* GrowingTextView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GrowingTextView.framework; path = Carthage/Build/iOS/GrowingTextView.framework; sourceTree = "<group>"; };
+		AEA3A90F24DB130D00F851FE /* HPGrowingTextView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HPGrowingTextView.framework; path = Carthage/Build/iOS/HPGrowingTextView.framework; sourceTree = "<group>"; };
 		B11D3C7C20C032BD00938BCB /* MXKBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXKBarButtonItem.h; sourceTree = "<group>"; };
 		B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXKBarButtonItem.m; sourceTree = "<group>"; };
 		B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXKUTI.swift; sourceTree = "<group>"; };
@@ -902,7 +903,7 @@
 				AEA3A82A24DA145C00F851FE /* AFNetworking.framework in Frameworks */,
 				AEA3A82224DA145C00F851FE /* libbase58.framework in Frameworks */,
 				AEA3A82024DA145B00F851FE /* Realm.framework in Frameworks */,
-				AEA3A8FF24DADF7000F851FE /* GrowingTextView.framework in Frameworks */,
+				AEA3A91024DB130D00F851FE /* HPGrowingTextView.framework in Frameworks */,
 				AEA3A82424DA145C00F851FE /* RealmSwift.framework in Frameworks */,
 				AEA3A82824DA145C00F851FE /* MatrixSDK.framework in Frameworks */,
 				AEA3A82E24DA145C00F851FE /* DTCoreText.framework in Frameworks */,
@@ -1364,6 +1365,7 @@
 		CC4E6F6D4101B9B731F29FB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEA3A90F24DB130D00F851FE /* HPGrowingTextView.framework */,
 				AEA3A8FE24DADF7000F851FE /* GrowingTextView.framework */,
 				AEA3A8E424DADAF800F851FE /* DTFoundation.framework */,
 				AEA3A81C24DA145B00F851FE /* AFNetworking.framework */,
