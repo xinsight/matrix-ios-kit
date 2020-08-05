@@ -216,6 +216,11 @@
 		AEA3A8E324DAC8F100F851FE /* MatrixKitVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 328E410224CB135100DC4490 /* MatrixKitVersion.m */; };
 		AEA3A8E524DADAF800F851FE /* DTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8E424DADAF800F851FE /* DTFoundation.framework */; };
 		AEA3A8FF24DADF7000F851FE /* GrowingTextView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA3A8FE24DADF7000F851FE /* GrowingTextView.framework */; platformFilter = ios; };
+		AEA3A90624DAF30E00F851FE /* MXKRoomDataSourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3230A3731ACADC1800CC57F5 /* MXKRoomDataSourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A90724DAF31E00F851FE /* MXKRoomDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = F07E180B1ABC2EDA00DE3766 /* MXKRoomDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A90824DAF36300F851FE /* MXKDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 328AC48D1AA86E110044A6FB /* MXKDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A90924DAF3C600F851FE /* MXKView.h in Headers */ = {isa = PBXBuildFile; fileRef = F079333C1F38A6A600F04D4C /* MXKView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A90A24DAF3CB00F851FE /* MXKView.m in Sources */ = {isa = PBXBuildFile; fileRef = F079333D1F38A6A600F04D4C /* MXKView.m */; };
 		B11D3C7E20C032BD00938BCB /* MXKBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */; };
 		B125D0FD22D5D2C200570CA4 /* MXKUTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */; };
 		B125D10522D62A4900570CA4 /* MXKUTITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D10322D62A4800570CA4 /* MXKUTITests.swift */; };
@@ -1763,7 +1768,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA3A90824DAF36300F851FE /* MXKDataSource.h in Headers */,
 				AEA3A80E24DA142A00F851FE /* MatrixKit.h in Headers */,
+				AEA3A90724DAF31E00F851FE /* MXKRoomDataSource.h in Headers */,
+				AEA3A90624DAF30E00F851FE /* MXKRoomDataSourceManager.h in Headers */,
+				AEA3A90924DAF3C600F851FE /* MXKView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2400,6 +2409,7 @@
 				AEA3A86924DAC86600F851FE /* MXKAuthenticationViewController.m in Sources */,
 				AEA3A88424DAC87400F851FE /* MXKRoomBubbleCellDataWithAppendingMode.m in Sources */,
 				AEA3A8A224DAC8BF00F851FE /* MXKTableViewHeaderFooterWithLabel.m in Sources */,
+				AEA3A90A24DAF3CB00F851FE /* MXKView.m in Sources */,
 				AEA3A86124DAC86100F851FE /* MXRoom+Sync.m in Sources */,
 				AEA3A8B224DAC8D500F851FE /* MXKTableViewCellWithLabelAndMXKImageView.m in Sources */,
 				AEA3A8DB24DAC8F100F851FE /* MXKEventDetailsView.m in Sources */,
