@@ -367,6 +367,8 @@
 		AEA3A9D924DB4B3700F851FE /* MXKRoomInputToolbarViewWithSimpleTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F094D15B1ACC8B9300994F67 /* MXKRoomInputToolbarViewWithSimpleTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A9DA24DB4B3D00F851FE /* MXKInterleavedRecentTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F0AD3CC41B289441002E0899 /* MXKInterleavedRecentTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA3A9DB24DB4B3D00F851FE /* MXKPublicRoomTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F0868E0F1B1CAD58004CBE80 /* MXKPublicRoomTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9DC24DB4C8D00F851FE /* MXKAttachmentAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = CE14CA621E80122600E329A3 /* MXKAttachmentAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA3A9DD24DB4C9100F851FE /* MXKAttachmentInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = CE14CA641E80122600E329A3 /* MXKAttachmentInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B11D3C7E20C032BD00938BCB /* MXKBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D3C7D20C032BD00938BCB /* MXKBarButtonItem.m */; };
 		B125D0FD22D5D2C200570CA4 /* MXKUTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D0FC22D5D2C200570CA4 /* MXKUTI.swift */; };
 		B125D10522D62A4900570CA4 /* MXKUTITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125D10322D62A4800570CA4 /* MXKUTITests.swift */; };
@@ -1920,6 +1922,7 @@
 				AEA3A99E24DB4AF800F851FE /* MXKErrorPresentation.h in Headers */,
 				AEA3A99824DB4AE400F851FE /* MXKSearchDataSource.h in Headers */,
 				AEA3A98424DB4AD400F851FE /* MXKRoomBubbleCellData.h in Headers */,
+				AEA3A9DD24DB4C9100F851FE /* MXKAttachmentInteractionController.h in Headers */,
 				AEA3A94524DB4A7000F851FE /* MXKCellRendering.h in Headers */,
 				AEA3A97624DB4AC900F851FE /* MXKPhoneNumber.h in Headers */,
 				AEA3A98E24DB4ADA00F851FE /* MXKInterleavedRecentsDataSource.h in Headers */,
@@ -1950,6 +1953,7 @@
 				AEA3A95A24DB4AB600F851FE /* UITextView+MatrixKit.h in Headers */,
 				AEA3A94724DB4A8300F851FE /* MXKRoomTitleViewWithTopic.h in Headers */,
 				AEA3A9D524DB4B3200F851FE /* MXKRoomIOSOutgoingBubbleTableViewCell.h in Headers */,
+				AEA3A9DC24DB4C8D00F851FE /* MXKAttachmentAnimator.h in Headers */,
 				AEA3A9C524DB4B2600F851FE /* MXKTableViewCellWithTextFieldAndButton.h in Headers */,
 				AEA3A97324DB4AC800F851FE /* MXKContactField.h in Headers */,
 				AEA3A9AA24DB4B1400F851FE /* MXKReadReceiptTableViewCell.h in Headers */,
